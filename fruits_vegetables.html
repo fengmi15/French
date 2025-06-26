@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Fruits & Vegetables Vocabulary Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #0055a4 0%, #ffffff 50%, #ef4135 100%);
+            color: #2c3e50;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #0055a4 0%, #ffffff 50%, #ef4135 100%);
+        }
+        
+        thead th {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            font-weight: 500;
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col::before {
+            content: "• ";
+            color: #0055a4;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .same-spelling {
+            font-weight: bold;
+            color: #ef4135;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- FRUITS SECTION -->
+        <div class="section-header">Fruits - Les Fruits</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a bunch of grapes</td><td class="french-col">une grappe de raisin</td></tr>
+                        <tr><td class="english-col">a candied fruit</td><td class="french-col">un fruit confit</td></tr>
+                        <tr><td class="english-col">a canned fruit</td><td class="french-col">un fruit en conserve</td></tr>
+                        <tr><td class="english-col">a cherry / cherries</td><td class="french-col">une cerise</td></tr>
+                        <tr><td class="english-col">a citrus fruit</td><td class="french-col">un agrume</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling"> a clementine</span></td><td class="french-col"><span class="same-spelling"> une clémentine</span></td></tr>
+                        <tr><td class="english-col">a coconut</td><td class="french-col">une noix de coco</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">date</span></td><td class="french-col">une <span class="same-spelling">datte</span></td></tr>
+                        <tr><td class="english-col">a dried fruit</td><td class="french-col">un fruit sec</td></tr>
+                        <tr><td class="english-col">a fig</td><td class="french-col">une figue</td></tr>
+                        <tr><td class="english-col">a fresh fruit</td><td class="french-col">un fruit frais</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling"> a fruit</span></td><td class="french-col"><span class="same-spelling"> un fruit</span></td></tr>
+                        <tr><td class="english-col">a fruit juice</td><td class="french-col">un jus de fruit</td></tr>
+                        <tr><td class="english-col">a fruit <span class="same-spelling">salad</span></td><td class="french-col">une <span class="same-spelling">salade</span> de fruits</td></tr>
+                        <tr><td class="english-col">a fruit seller</td><td class="french-col">un marchand de fruits</td></tr>
+                        <tr><td class="english-col">a fruit stall</td><td class="french-col">un étal de fruits</td></tr>
+                        <tr><td class="english-col">a fruit tree</td><td class="french-col">un arbre fruitier</td></tr>
+                        <tr><td class="english-col">a grape seed</td><td class="french-col">un pépin de raisin</td></tr>
+                        <tr><td class="english-col">a grapefruit</td><td class="french-col">un pamplemousse</td></tr>
+                        <tr><td class="english-col">a guava</td><td class="french-col">une goyave</td></tr>
+                        <tr><td class="english-col"> <span class="same-spelling"> kaki, a kiwi, a kumquat</span></td><td class="french-col"><span class="same-spelling"> un kaki, un kiwi, un kumquat</span></td></tr>
+                        <tr><td class="english-col">a lemon</td><td class="french-col">un citron</td></tr>
+                        <tr><td class="english-col">a lime</td><td class="french-col">un citron vert</td></tr>
+                        <tr><td class="english-col">a lychee</td><td class="french-col">un litchi</td></tr>
+                        <tr><td class="english-col">a mango</td><td class="french-col">une mangue</td></tr>
+                        <tr><td class="english-col">a mangosteen</td><td class="french-col">un mangoustan</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">melon</span></td><td class="french-col">un <span class="same-spelling">melon</span></td></tr>
+                        <tr><td class="english-col">a papaya</td><td class="french-col">une papaye</td></tr>
+                        <tr><td class="english-col">a passion fruit</td><td class="french-col">un fruit de la passion</td></tr>
+                        <tr><td class="english-col">a peach</td><td class="french-col">une pêche</td></tr>
+                        <tr><td class="english-col">a pear</td><td class="french-col">une poire</td></tr>
+                        <tr><td class="english-col">a piece of fruit</td><td class="french-col">un morceau de fruit</td></tr>
+                        <tr><td class="english-col">a pineapple</td><td class="french-col">un ananas</td></tr>
+                        <tr><td class="english-col">a pip</td><td class="french-col">un pépin</td></tr>
+                        <tr><td class="english-col">a plum</td><td class="french-col">une prune</td></tr>
+                        <tr><td class="english-col">a pomegranate</td><td class="french-col">une grenade</td></tr>
+                        <tr><td class="english-col">a raisin</td><td class="french-col">un raisin sec</td></tr>
+                        <tr><td class="english-col">a raspberry</td><td class="french-col">une framboise</td></tr>
+                        <tr><td class="english-col">a red berry</td><td class="french-col">une baie rouge</td></tr>
+                        <tr><td class="english-col">a redcurrent</td><td class="french-col">une groseille</td></tr>
+                        <tr><td class="english-col">a seasonal fruit</td><td class="french-col">un fruit de saison</td></tr>
+                        <tr><td class="english-col">a strawberry</td><td class="french-col">une fraise</td></tr>
+                        <tr><td class="english-col">a tangerine</td><td class="french-col">une mandarine</td></tr>
+                        <tr><td class="english-col">a tropical fruit</td><td class="french-col">un fruit tropical</td></tr>
+                        <tr><td class="english-col">a watermelon</td><td class="french-col">une pastèque</td></tr>
+                        <tr><td class="english-col">a whole fruit</td><td class="french-col">un fruit entier</td></tr>
+                        <tr><td class="english-col">an apple</td><td class="french-col">une pomme</td></tr>
+                        <tr><td class="english-col">an apricot</td><td class="french-col">un abricot</td></tr>
+                        <tr><td class="english-col">an avocado</td><td class="french-col">un avocat</td></tr>
+                        <tr><td class="english-col">an <span class="same-spelling">orange</span></td><td class="french-col">une <span class="same-spelling">orange</span></td></tr>
+                        <tr><td class="english-col">an orchard</td><td class="french-col">un verger</td></tr>
+                        <tr><td class="english-col">a banana</td><td class="french-col">une banane</td></tr>
+                        <tr><td class="english-col">blackberry</td><td class="french-col">une mûre</td></tr>
+                        <tr><td class="english-col">blackcurrant</td><td class="french-col">un cassis</td></tr>
+                        <tr><td class="english-col">blueberry</td><td class="french-col">une myrtille</td></tr>
+                        <tr><td class="english-col">cranberry</td><td class="french-col">la canneberge</td></tr>
+                        <tr><td class="english-col">goji berries</td><td class="french-col">baies de goji</td></tr>
+                        <tr><td class="english-col">grapes</td><td class="french-col">le raisin</td></tr>
+                        <tr><td class="english-col">jackfruit</td><td class="french-col">un jacquier</td></tr>
+                        <tr><td class="english-col">ripe</td><td class="french-col">mûr</td></tr>
+                        <tr><td class="english-col">rotten</td><td class="french-col">pourri</td></tr>
+                        <tr><td class="english-col">seedless</td><td class="french-col">sans pépins</td></tr>
+                        <tr><td class="english-col">the picking</td><td class="french-col">la cueillette</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- VEGETABLES SECTION -->
+        <div class="section-header">Vegetables - Les Légumes</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a bean sprout</td><td class="french-col">une pousse de haricot</td></tr>
+                        <tr><td class="english-col">a beetroot</td><td class="french-col">une betterave</td></tr>
+                        <tr><td class="english-col">a broccoli</td><td class="french-col">un brocoli</td></tr>
+                        <tr><td class="english-col">a cabbage</td><td class="french-col">un chou</td></tr>
+                        <tr><td class="english-col">a carrot</td><td class="french-col">une carotte</td></tr>
+                        <tr><td class="english-col">a cauliflower</td><td class="french-col">un chou-fleur</td></tr>
+                        <tr><td class="english-col">a celery</td><td class="french-col">un céleri</td></tr>
+                        <tr><td class="english-col">a cherry tomato</td><td class="french-col">une tomate cerise</td></tr>
+                        <tr><td class="english-col">a chili</td><td class="french-col">un piment</td></tr>
+                        <tr><td class="english-col">a cucumber</td><td class="french-col">un concombre</td></tr>
+                        <tr><td class="english-col">a horseradish</td><td class="french-col">un raifort</td></tr>
+                        <tr><td class="english-col">a leek</td><td class="french-col">un poireau</td></tr>
+                        <tr><td class="english-col">a lettuce</td><td class="french-col">une laitue</td></tr>
+                        <tr><td class="english-col">a mushroom</td><td class="french-col">un champignon</td></tr>
+                        <tr><td class="english-col">a pepper</td><td class="french-col">un poivron</td></tr>
+                        <tr><td class="english-col">a potato</td><td class="french-col">une pomme de terre</td></tr>
+                        <tr><td class="english-col">a pumpkin, a squash</td><td class="french-col">une citrouille</td></tr>
+                        <tr><td class="english-col">a radish</td><td class="french-col">un radis</td></tr>
+                        <tr><td class="english-col">a red / green pepper</td><td class="french-col">un poivron rouge / vert</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">salad</span></td><td class="french-col">une <span class="same-spelling">salade</span></td></tr>
+                        <tr><td class="english-col">a shallot</td><td class="french-col">une échalote</td></tr>
+                        <tr><td class="english-col">a spring onion</td><td class="french-col">un oignon nouveau</td></tr>
+                        <tr><td class="english-col">a sweet potato</td><td class="french-col">une patate douce</td></tr>
+                        <tr><td class="english-col">a turnip</td><td class="french-col">un navet</td></tr>
+                        <tr><td class="english-col">a zucchini</td><td class="french-col">une courgette</td></tr>
+                        <tr><td class="english-col">an artichoke</td><td class="french-col">un artichaut</td></tr>
+                        <tr><td class="english-col">an asparagus</td><td class="french-col">une asperge</td></tr>
+                        <tr><td class="english-col">an ear of corn</td><td class="french-col">un épi de maïs</td></tr>
+                        <tr><td class="english-col">an eggplant</td><td class="french-col">une aubergine</td></tr>
+                        <tr><td class="english-col">an onion</td><td class="french-col">un oignon</td></tr>
+                        <tr><td class="english-col">bamboo</td><td class="french-col">le bambou</td></tr>
+                        <tr><td class="english-col">beans</td><td class="french-col">les haricots</td></tr>
+                        <tr><td class="english-col">brussels sprouts</td><td class="french-col">les choux de Bruxelles</td></tr>
+                        <tr><td class="english-col">dried vegetables</td><td class="french-col">les légumes secs</td></tr>
+                        <tr><td class="english-col">fresh</td><td class="french-col">frais</td></tr>
+                        <tr><td class="english-col">frozen vegetables</td><td class="french-col">les légumes surgelés</td></tr>
+                        <tr><td class="english-col">GMOs</td><td class="french-col">les OGM</td></tr>
+                        <tr><td class="english-col">green beans / french beans</td><td class="french-col">les haricots verts</td></tr>
+                        <tr><td class="english-col">green leafy vegetables</td><td class="french-col">les légumes verts à feuilles</td></tr>
+                        <tr><td class="english-col">green vegetables</td><td class="french-col">les légumes verts</td></tr>
+                        <tr><td class="english-col">green/red pepper</td><td class="french-col">un poivron vert/rouge</td></tr>
+                        <tr><td class="english-col">green peas / peas</td><td class="french-col">les petits pois</td></tr>
+                        <tr><td class="english-col">kale</td><td class="french-col">le chou frisé</td></tr>
+                        <tr><td class="english-col">kidney beans</td><td class="french-col">les haricots rouges</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">lentils</span></td><td class="french-col"><span class="same-spelling"> les lentilles</span></td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">manioc</span></td><td class="french-col"><span class="same-spelling"> le manioc</span></td></tr>
+                        <tr><td class="english-col">organic</td><td class="french-col">bio</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">pesticides</span></td><td class="french-col"><span class="same-spelling">les pesticides</span></td></tr>
+                        <tr><td class="english-col">raw vegetables</td><td class="french-col">les crudités</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">rhubarb</span></td><td class="french-col"><span class="same-spelling">la rhubarbe</span></td></tr>
+                        <tr><td class="english-col">seasonal vegetables / in-season vegetables</td><td class="french-col">les légumes de saison</td></tr>
+                        <tr><td class="english-col">soy</td><td class="french-col">le soja</td></tr>
+                        <tr><td class="english-col">spinach</td><td class="french-col">les épinards</td></tr>
+                        <tr><td class="english-col">to grow vegetables</td><td class="french-col">cultiver des légumes</td></tr>
+                        <tr><td class="english-col">to peel the vegetables</td><td class="french-col">éplucher les légumes</td></tr>
+                        <tr><td class="english-col">a tomato, a tomato</td><td class="french-col">une tomate</td></tr>
+                        <tr><td class="english-col">vegetable garden</td><td class="french-col">un potager</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- USEFUL VERBS SECTION -->
+        <div class="section-header">Useful Verbs - Verbes Utiles</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">to eat fruit</td><td class="french-col">manger des fruits</td></tr>
+                        <tr><td class="english-col">to peel a fruit</td><td class="french-col">éplucher un fruit</td></tr>
+                        <tr><td class="english-col">to pick a fruit</td><td class="french-col">cueillir un fruit</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>French Fruits & Vegetables Vocabulary Reference</strong></p>
+            <p>Professional vocabulary compilation presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>

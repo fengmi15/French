@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Verbs Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #4169E1 0%, #FFFFFF 50%, #DC143C 100%);
+            color: #2c3e50;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #4169E1 0%, #FFFFFF 50%, #DC143C 100%);
+        }
+        
+        thead th {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        .french-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col::before {
+            content: "• ";
+            color: #4169E1;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .same-word {
+            font-weight: bold;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ESSENTIAL VERBS SECTION -->
+        <div class="section-header">Essential Verbs - Verbes Essentiels</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col"><strong>accept</strong></td><td class="french-col"><strong>accepter</strong></td></tr>
+                        <tr><td class="english-col">add</td><td class="french-col">ajouter</td></tr>
+                        <tr><td class="english-col">allow</td><td class="french-col">permettre</td></tr>
+                        <tr><td class="english-col">answer</td><td class="french-col">répondre</td></tr>
+                        <tr><td class="english-col">arrive</td><td class="french-col">arriver</td></tr>
+                        <tr><td class="english-col">ask(formal)</td><td class="french-col">demander</td></tr>
+                        <tr><td class="english-col">be</td><td class="french-col">être</td></tr>
+                        <tr><td class="english-col">be able</td><td class="french-col">pouvoir</td></tr>
+                        <tr><td class="english-col">become</td><td class="french-col">devenir</td></tr>
+                        <tr><td class="english-col">believe</td><td class="french-col">croire</td></tr>
+                        <tr><td class="english-col">break</td><td class="french-col">casser</td></tr>
+                        <tr><td class="english-col">bring</td><td class="french-col">apporter</td></tr>
+                        <tr><td class="english-col">buy</td><td class="french-col">acheter</td></tr>
+                        <tr><td class="english-col">call, name</td><td class="french-col">appeler</td></tr>
+                        <tr><td class="english-col">carry</td><td class="french-col">porter</td></tr>
+                        <tr><td class="english-col">change</td><td class="french-col">changer</td></tr>
+                        <tr><td class="english-col">choose</td><td class="french-col">choisir</td></tr>
+                        <tr><td class="english-col">close</td><td class="french-col">fermer</td></tr>
+                        <tr><td class="english-col">come</td><td class="french-col">venir</td></tr>
+                        <tr><td class="english-col">come back</td><td class="french-col">revenir</td></tr>
+                        <tr><td class="english-col">continue</td><td class="french-col">continuer</td></tr>
+                        <tr><td class="english-col">cooking</td><td class="french-col">cuisiner</td></tr>
+                        <tr><td class="english-col">count</td><td class="french-col">compter</td></tr>
+                        <tr><td class="english-col">cry</td><td class="french-col">pleurer</td></tr>
+                        <tr><td class="english-col">cut</td><td class="french-col">couper</td></tr>
+                        <tr><td class="english-col">decide</td><td class="french-col">décider</td></tr>
+                        <tr><td class="english-col">do</td><td class="french-col">faire</td></tr>
+                        <tr><td class="english-col">drive</td><td class="french-col">conduire</td></tr>
+                        <tr><td class="english-col">duty</td><td class="french-col">devoir</td></tr>
+                        <tr><td class="english-col">eat</td><td class="french-col">manger</td></tr>
+                        <tr><td class="english-col">enter</td><td class="french-col">entrer</td></tr>
+                        <tr><td class="english-col">exist</td><td class="french-col">exister</td></tr>
+                        <tr><td class="english-col">explain</td><td class="french-col">expliquer</td></tr>
+                        <tr><td class="english-col">fall</td><td class="french-col">tomber</td></tr>
+                        <tr><td class="english-col">fall asleep</td><td class="french-col">s'endormir</td></tr>
+                        <tr><td class="english-col">find</td><td class="french-col">trouver</td></tr>
+                        <tr><td class="english-col">finish</td><td class="french-col">finir</td></tr>
+                        <tr><td class="english-col">fly</td><td class="french-col">voler</td></tr>
+                        <tr><td class="english-col">follow, continue</td><td class="french-col">suivre</td></tr>
+                        <tr><td class="english-col">forget</td><td class="french-col">oublier</td></tr>
+                        <tr><td class="english-col">get off</td><td class="french-col">descendre</td></tr>
+                        <tr><td class="english-col">give</td><td class="french-col">donner</td></tr>
+                        <tr><td class="english-col">go</td><td class="french-col">aller</td></tr>
+                        <tr><td class="english-col">go home</td><td class="french-col">rentrer à la maison</td></tr>
+                        <tr><td class="english-col">go out</td><td class="french-col">sortir</td></tr>
+                        <tr><td class="english-col">have</td><td class="french-col">avoir</td></tr>
+                        <tr><td class="english-col">hear</td><td class="french-col">entendre</td></tr>
+                        <tr><td class="english-col">help</td><td class="french-col">aider</td></tr>
+                        <tr><td class="english-col">hold(physical object)</td><td class="french-col">tenir</td></tr>
+                        <tr><td class="english-col">keep, hold(state/condition)</td><td class="french-col">maintenir</td></tr>
+                        <tr><td class="english-col">know</td><td class="french-col">savoir, connaître</td></tr>
+                        <tr><td class="english-col">laugh</td><td class="french-col">rire</td></tr>
+                        <tr><td class="english-col">learn</td><td class="french-col">apprendre</td></tr>
+                        <tr><td class="english-col">leave</td><td class="french-col">partir</td></tr>
+                        <tr><td class="english-col">leave something, let, allow</td><td class="french-col">laisser</td></tr>
+                        <tr><td class="english-col">listen</td><td class="french-col">écouter</td></tr>
+                        <tr><td class="english-col">live</td><td class="french-col">vivre</td></tr>
+                        <tr><td class="english-col">look like</td><td class="french-col">ressembler à</td></tr>
+                        <tr><td class="english-col">look, see</td><td class="french-col">voir</td></tr>
+                        <tr><td class="english-col">lose</td><td class="french-col">perdre</td></tr>
+                        <tr><td class="english-col">love</td><td class="french-col">aimer</td></tr>
+                        <tr><td class="english-col">make</td><td class="french-col">faire</td></tr>
+                        <tr><td class="english-col">meet</td><td class="french-col">rencontrer</td></tr>
+                        <tr><td class="english-col">need</td><td class="french-col">avoir besoin</td></tr>
+                        <tr><td class="english-col">open</td><td class="french-col">ouvrir</td></tr>
+                        <tr><td class="english-col">pay</td><td class="french-col">payer</td></tr>
+                        <tr><td class="english-col">play</td><td class="french-col">jouer</td></tr>
+                        <tr><td class="english-col">pose</td><td class="french-col">poser</td></tr>
+                        <tr><td class="english-col">power</td><td class="french-col">pouvoir</td></tr>
+                        <tr><td class="english-col">prepare</td><td class="french-col">préparer</td></tr>
+                        <tr><td class="english-col">prevent</td><td class="french-col">empêcher</td></tr>
+                        <tr><td class="english-col">put</td><td class="french-col">mettre</td></tr>
+                        <tr><td class="english-col">read</td><td class="french-col">lire</td></tr>
+                        <tr><td class="english-col">recall</td><td class="french-col">se rappeler</td></tr>
+                        <tr><td class="english-col">receive</td><td class="french-col">recevoir</td></tr>
+                        <tr><td class="english-col">recognize</td><td class="french-col">reconnaître</td></tr>
+                        <tr><td class="english-col">refuse</td><td class="french-col">refuser</td></tr>
+                        <tr><td class="english-col">remember</td><td class="french-col">se souvenir</td></tr>
+                        <tr><td class="english-col">repeat</td><td class="french-col">répéter</td></tr>
+                        <tr><td class="english-col">rest</td><td class="french-col">se reposer</td></tr>
+                        <tr><td class="english-col">return, go back</td><td class="french-col">retourner</td></tr>
+                        <tr><td class="english-col">run</td><td class="french-col">courir</td></tr>
+                        <tr><td class="english-col">say</td><td class="french-col">dire</td></tr>
+                        <tr><td class="english-col">search</td><td class="french-col">chercher</td></tr>
+                        <tr><td class="english-col">see</td><td class="french-col">voir</td></tr>
+                        <tr><td class="english-col">seem</td><td class="french-col">sembler</td></tr>
+                        <tr><td class="english-col">sell</td><td class="french-col">vendre</td></tr>
+                        <tr><td class="english-col">send</td><td class="french-col">envoyer</td></tr>
+                        <tr><td class="english-col">shoot</td><td class="french-col">tirer</td></tr>
+                        <tr><td class="english-col">show</td><td class="french-col">montrer</td></tr>
+                        <tr><td class="english-col">sing</td><td class="french-col">chanter</td></tr>
+                        <tr><td class="english-col">sit down</td><td class="french-col">s'asseoir</td></tr>
+                        <tr><td class="english-col">sleep</td><td class="french-col">dormir</td></tr>
+                        <tr><td class="english-col">start</td><td class="french-col">commencer</td></tr>
+                        <tr><td class="english-col">stay</td><td class="french-col">rester</td></tr>
+                        <tr><td class="english-col">stop</td><td class="french-col">arrêter</td></tr>
+                        <tr><td class="english-col">succeed</td><td class="french-col">réussir</td></tr>
+                        <tr><td class="english-col">switch off</td><td class="french-col">éteindre</td></tr>
+                        <tr><td class="english-col">take</td><td class="french-col">prendre</td></tr>
+                        <tr><td class="english-col">talk</td><td class="french-col">parler</td></tr>
+                        <tr><td class="english-col">taste</td><td class="french-col">goûter</td></tr>
+                        <tr><td class="english-col">think</td><td class="french-col">penser</td></tr>
+                        <tr><td class="english-col">throw</td><td class="french-col">jeter</td></tr>
+                        <tr><td class="english-col">touch</td><td class="french-col">toucher</td></tr>
+                        <tr><td class="english-col">try</td><td class="french-col">essayer</td></tr>
+                        <tr><td class="english-col">turn</td><td class="french-col">tourner</td></tr>
+                        <tr><td class="english-col">turn on</td><td class="french-col">allumer</td></tr>
+                        <tr><td class="english-col">understand</td><td class="french-col">comprendre</td></tr>
+                        <tr><td class="english-col">use</td><td class="french-col">utiliser</td></tr>
+                        <tr><td class="english-col">wait</td><td class="french-col">attendre</td></tr>
+                        <tr><td class="english-col">wake up</td><td class="french-col">se réveiller</td></tr>
+                        <tr><td class="english-col">walk</td><td class="french-col">marcher</td></tr>
+                        <tr><td class="english-col">want</td><td class="french-col">vouloir</td></tr>
+                        <tr><td class="english-col">wash up</td><td class="french-col">se laver</td></tr>
+                        <tr><td class="english-col">wash, clean</td><td class="french-col">laver</td></tr>
+                        <tr><td class="english-col">wear</td><td class="french-col">porter</td></tr>
+                        <tr><td class="english-col">win</td><td class="french-col">gagner</td></tr>
+                        <tr><td class="english-col">work</td><td class="french-col">travailler</td></tr>
+                        <tr><td class="english-col">write</td><td class="french-col">écrire</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- MOVEMENT & ACTION VERBS SECTION -->
+        <div class="section-header">Movement & Action Verbs - Verbes de Mouvement et d'Action</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">accompany</td><td class="french-col">accompagner</td></tr>
+                        <tr><td class="english-col">accelerate</td><td class="french-col">accélérer</td></tr>
+                        <tr><td class="english-col">applaud</td><td class="french-col">applaudir</td></tr>
+                        <tr><td class="english-col">approach</td><td class="french-col">approcher</td></tr>
+                        <tr><td class="english-col">bite</td><td class="french-col">mordre</td></tr>
+                        <tr><td class="english-col">blink</td><td class="french-col">cligner</td></tr>
+                        <tr><td class="english-col">blow</td><td class="french-col">souffler</td></tr>
+                        <tr><td class="english-col">breathe</td><td class="french-col">respirer</td></tr>
+                        <tr><td class="english-col">bring back</td><td class="french-col">rapporter</td></tr>
+                        <tr><td class="english-col">bring (something)</td><td class="french-col">apporter</td></tr>
+                        <tr><td class="english-col">build</td><td class="french-col">construire</td></tr>
+                        <tr><td class="english-col">catch</td><td class="french-col">attraper</td></tr>
+                        <tr><td class="english-col">chew</td><td class="french-col">mâcher</td></tr>
+                        <tr><td class="english-col">choose</td><td class="french-col">choisir</td></tr>
+                        <tr><td class="english-col">climb</td><td class="french-col">grimper</td></tr>
+                        <tr><td class="english-col">cook</td><td class="french-col">cuisiner</td></tr>
+                        <tr><td class="english-col">crawl</td><td class="french-col">ramper</td></tr>
+                        <tr><td class="english-col">crossing (something)</td><td class="french-col">traverser</td></tr>
+                        <tr><td class="english-col">dance</td><td class="french-col">danser</td></tr>
+                        <tr><td class="english-col">discard</td><td class="french-col">jeter</td></tr>
+                        <tr><td class="english-col">dive</td><td class="french-col">plonger</td></tr>
+                        <tr><td class="english-col">dodge</td><td class="french-col">esquiver</td></tr>
+                        <tr><td class="english-col">dream</td><td class="french-col">rêver</td></tr>
+                        <tr><td class="english-col">drink</td><td class="french-col">boire</td></tr>
+                        <tr><td class="english-col">escape</td><td class="french-col">s'échapper</td></tr>
+                        <tr><td class="english-col">expand, spread out</td><td class="french-col">s'étendre</td></tr>
+                        <tr><td class="english-col">feel</td><td class="french-col">sentir</td></tr>
+                        <tr><td class="english-col">float</td><td class="french-col">flotter</td></tr>
+                        <tr><td class="english-col">fold</td><td class="french-col">plier</td></tr>
+                        <tr><td class="english-col">follow (someone)</td><td class="french-col">suivre</td></tr>
+                        <tr><td class="english-col">get out</td><td class="french-col">sortir</td></tr>
+                        <tr><td class="english-col">get up</td><td class="french-col">se lever</td></tr>
+                        <tr><td class="english-col">go to bed</td><td class="french-col">se coucher</td></tr>
+                        <tr><td class="english-col">grow</td><td class="french-col">grandir</td></tr>
+                        <tr><td class="english-col">hang out</td><td class="french-col">pendre</td></tr>
+                        <tr><td class="english-col">howl, scream</td><td class="french-col">crier</td></tr>
+                        <tr><td class="english-col">hug</td><td class="french-col">serrer dans ses bras, faire un câlin</td></tr>
+                        <tr><td class="english-col">increase</td><td class="french-col">augmenter</td></tr>
+                        <tr><td class="english-col">jump</td><td class="french-col">sauter</td></tr>
+                        <tr><td class="english-col">kick</td><td class="french-col">donner un coup de pied</td></tr>
+                        <tr><td class="english-col">kiss</td><td class="french-col">embrasser</td></tr>
+                        <tr><td class="english-col">kneel, kneel down</td><td class="french-col">s'agenouiller</td></tr>
+                        <tr><td class="english-col">knock</td><td class="french-col">frapper</td></tr>
+                        <tr><td class="english-col">launch</td><td class="french-col">lancer</td></tr>
+                        <tr><td class="english-col">lick</td><td class="french-col">lécher</td></tr>
+                        <tr><td class="english-col">lie down</td><td class="french-col">s'allonger</td></tr>
+                        <tr><td class="english-col">lift</td><td class="french-col">soulever</td></tr>
+                        <tr><td class="english-col">lose weight</td><td class="french-col">perdre du poids</td></tr>
+                        <tr><td class="english-col">move (something)</td><td class="french-col">bouger</td></tr>
+                        <tr><td class="english-col">move forward</td><td class="french-col">avancer</td></tr>
+                        <tr><td class="english-col">park</td><td class="french-col">se garer</td></tr>
+                        <tr><td class="english-col">pass</td><td class="french-col">passer</td></tr>
+                        <tr><td class="english-col">pick up</td><td class="french-col">ramasser</td></tr>
+                        <tr><td class="english-col">pour</td><td class="french-col">verser</td></tr>
+                        <tr><td class="english-col">push</td><td class="french-col">pousser</td></tr>
+                        <tr><td class="english-col">reach, join</td><td class="french-col">atteindre</td></tr>
+                        <tr><td class="english-col">repair (something)</td><td class="french-col">réparer</td></tr>
+                        <tr><td class="english-col">return (somewhere), back</td><td class="french-col">retourner</td></tr>
+                        <tr><td class="english-col">ride</td><td class="french-col">monter</td></tr>
+                        <tr><td class="english-col">search</td><td class="french-col">chercher</td></tr>
+                        <tr><td class="english-col">shake</td><td class="french-col">secouer</td></tr>
+                        <tr><td class="english-col">shout</td><td class="french-col">crier</td></tr>
+                        <tr><td class="english-col">shower, take a shower</td><td class="french-col">se doucher</td></tr>
+                        <tr><td class="english-col">shrug shoulders</td><td class="french-col">hausser les épaules</td></tr>
+                        <tr><td class="english-col">slide</td><td class="french-col">glisser</td></tr>
+                        <tr><td class="english-col">sniff</td><td class="french-col">renifler</td></tr>
+                        <tr><td class="english-col">squatting</td><td class="french-col">s'accroupir</td></tr>
+                        <tr><td class="english-col">steal</td><td class="french-col">voler</td></tr>
+                        <tr><td class="english-col">swallow</td><td class="french-col">avaler</td></tr>
+                        <tr><td class="english-col">sweat</td><td class="french-col">transpirer</td></tr>
+                        <tr><td class="english-col">swim</td><td class="french-col">nager</td></tr>
+                        <tr><td class="english-col">take, take away</td><td class="french-col">emporter</td></tr>
+                        <tr><td class="english-col">teach</td><td class="french-col">enseigner</td></tr>
+                        <tr><td class="english-col">to go backward (in time)</td><td class="french-col">reculer</td></tr>
+                        <tr><td class="english-col">turn around</td><td class="french-col">se retourner</td></tr>
+                        <tr><td class="english-col">visit</td><td class="french-col">visiter</td></tr>
+                        <tr><td class="english-col">walk away</td><td class="french-col">s'éloigner</td></tr>
+                        <tr><td class="english-col">watch</td><td class="french-col">regarder</td></tr>
+                        <tr><td class="english-col">wear, take away</td><td class="french-col">porter</td></tr>
+                        <tr><td class="english-col">whisper</td><td class="french-col">chuchoter</td></tr>
+                        <tr><td class="english-col">whistle</td><td class="french-col">siffler</td></tr>
+                        <tr><td class="english-col">wink</td><td class="french-col">faire un clin d'œil</td></tr>
+                        <tr><td class="english-col">yawn</td><td class="french-col">bâiller</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- COOKING VERBS SECTION -->
+        <div class="section-header">Cooking Verbs - Verbes de Cuisine</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">bake, gratinate</td><td class="french-col">cuire au four</td></tr>
+                        <tr><td class="english-col">beat egg whites</td><td class="french-col">battre les blancs d'œufs</td></tr>
+                        <tr><td class="english-col">beat, whisk (eggs)</td><td class="french-col">battre (les œufs)</td></tr>
+                        <tr><td class="english-col">blanch vegetables</td><td class="french-col">blanchir les légumes</td></tr>
+                        <tr><td class="english-col">boil, make boil</td><td class="french-col">bouillir, faire bouillir</td></tr>
+                        <tr><td class="english-col">braise</td><td class="french-col">braiser</td></tr>
+                        <tr><td class="english-col">butter</td><td class="french-col">beurrer</td></tr>
+                        <tr><td class="english-col">butter a mold</td><td class="french-col">beurrer un moule</td></tr>
+                        <tr><td class="english-col">carve meat</td><td class="french-col">découper la viande</td></tr>
+                        <tr><td class="english-col">chisel</td><td class="french-col">ciseler</td></tr>
+                        <tr><td class="english-col">chop (meat), mince</td><td class="french-col">hacher (la viande)</td></tr>
+                        <tr><td class="english-col">clean</td><td class="french-col">nettoyer</td></tr>
+                        <tr><td class="english-col">clear</td><td class="french-col">clarifier</td></tr>
+                        <tr><td class="english-col">color</td><td class="french-col">colorer</td></tr>
+                        <tr><td class="english-col">complete</td><td class="french-col">compléter</td></tr>
+                        <tr><td class="english-col">confection</td><td class="french-col">confectionner</td></tr>
+                        <tr><td class="english-col">cook</td><td class="french-col">cuisiner</td></tr>
+                        <tr><td class="english-col">cook in wood fire</td><td class="french-col">cuire au feu de bois</td></tr>
+                        <tr><td class="english-col">cover</td><td class="french-col">couvrir</td></tr>
+                        <tr><td class="english-col">crush, reduce to puree</td><td class="french-col">écraser, réduire en purée</td></tr>
+                        <tr><td class="english-col">cut</td><td class="french-col">couper</td></tr>
+                        <tr><td class="english-col">cut (in slices)</td><td class="french-col">trancher</td></tr>
+                        <tr><td class="english-col">cut in cubes</td><td class="french-col">couper en dés</td></tr>
+                        <tr><td class="english-col">cut in half</td><td class="french-col">couper en deux</td></tr>
+                        <tr><td class="english-col">decorate</td><td class="french-col">décorer</td></tr>
+                        <tr><td class="english-col">deglaze</td><td class="french-col">déglacer</td></tr>
+                        <tr><td class="english-col">detail</td><td class="french-col">détailler</td></tr>
+                        <tr><td class="english-col">dilute, dissolve</td><td class="french-col">diluer, dissoudre</td></tr>
+                        <tr><td class="english-col">dispose</td><td class="french-col">disposer</td></tr>
+                        <tr><td class="english-col">dissolve</td><td class="french-col">dissoudre</td></tr>
+                        <tr><td class="english-col">drain</td><td class="french-col">égoutter</td></tr>
+                        <tr><td class="english-col">dress</td><td class="french-col">dresser</td></tr>
+                        <tr><td class="english-col">dry</td><td class="french-col">sécher</td></tr>
+                        <tr><td class="english-col">extend</td><td class="french-col">étendre</td></tr>
+                        <tr><td class="english-col">fillet</td><td class="french-col">fileter</td></tr>
+                        <tr><td class="english-col"><strong>filter</strong></td><td class="french-col"><strong>filtrer</strong></td></tr>
+                        <tr><td class="english-col">flatten</td><td class="french-col">aplatir</td></tr>
+                        <tr><td class="english-col">flavor</td><td class="french-col">parfumer</td></tr>
+                        <tr><td class="english-col">foam</td><td class="french-col">mousser</td></tr>
+                        <tr><td class="english-col">freeze</td><td class="french-col">congeler</td></tr>
+                        <tr><td class="english-col">fry in oil</td><td class="french-col">frire dans l'huile</td></tr>
+                        <tr><td class="english-col">garnish</td><td class="french-col">garnir</td></tr>
+                        <tr><td class="english-col">grate</td><td class="french-col">râper</td></tr>
+                        <tr><td class="english-col">grill fish</td><td class="french-col">griller le poisson</td></tr>
+                        <tr><td class="english-col">grill, make grill</td><td class="french-col">griller</td></tr>
+                        <tr><td class="english-col">grill bread</td><td class="french-col">griller le pain</td></tr>
+                        <tr><td class="english-col">heat</td><td class="french-col">chauffer</td></tr>
+                        <tr><td class="english-col">incorporate</td><td class="french-col">incorporer</td></tr>
+                        <tr><td class="english-col">infuse</td><td class="french-col">infuser</td></tr>
+                        <tr><td class="english-col">knead</td><td class="french-col">pétrir</td></tr>
+                        <tr><td class="english-col">lower the fire</td><td class="french-col">baisser le feu</td></tr>
+                        <tr><td class="english-col">macerate</td><td class="french-col">macérer</td></tr>
+                        <tr><td class="english-col">make brown onions</td><td class="french-col">faire dorer les oignons</td></tr>
+                        <tr><td class="english-col">make eggs with shell</td><td class="french-col">cuire les œufs à la coque</td></tr>
+                        <tr><td class="english-col">make flambe</td><td class="french-col">flamber</td></tr>
+                        <tr><td class="english-col">melt, make melt</td><td class="french-col">faire fondre</td></tr>
+                        <tr><td class="english-col">mix</td><td class="french-col">mélanger</td></tr>
+                        <tr><td class="english-col">oil</td><td class="french-col">huiler</td></tr>
+                        <tr><td class="english-col">peel</td><td class="french-col">éplucher</td></tr>
+                        <tr><td class="english-col">perfume</td><td class="french-col">parfumer</td></tr>
+                        <tr><td class="english-col">pinch</td><td class="french-col">pincer</td></tr>
+                        <tr><td class="english-col">place</td><td class="french-col">placer</td></tr>
+                        <tr><td class="english-col">plunge</td><td class="french-col">plonger</td></tr>
+                        <tr><td class="english-col">poach eggs, fish</td><td class="french-col">pocher les œufs, le poisson</td></tr>
+                        <tr><td class="english-col">pepper</td><td class="french-col">poivrer</td></tr>
+                        <tr><td class="english-col">preheat the oven</td><td class="french-col">préchauffer le four</td></tr>
+                        <tr><td class="english-col">prepare the meal</td><td class="french-col">préparer le repas</td></tr>
+                        <tr><td class="english-col"><strong>present</strong></td><td class="french-col"><strong>présenter</strong></td></tr>
+                        <tr><td class="english-col">press</td><td class="french-col">presser</td></tr>
+                        <tr><td class="english-col">protect</td><td class="french-col">protéger</td></tr>
+                        <tr><td class="english-col">put aside</td><td class="french-col">mettre de côté</td></tr>
+                        <tr><td class="english-col">put the cover</td><td class="french-col">mettre le couvercle</td></tr>
+                        <tr><td class="english-col">raise the fire</td><td class="french-col">monter le feu</td></tr>
+                        <tr><td class="english-col">reduce</td><td class="french-col">réduire</td></tr>
+                        <tr><td class="english-col">reduce the fire</td><td class="french-col">réduire le feu</td></tr>
+                        <tr><td class="english-col">refresh</td><td class="french-col">rafraîchir</td></tr>
+                        <tr><td class="english-col">remove</td><td class="french-col">retirer</td></tr>
+                        <tr><td class="english-col">reserve</td><td class="french-col">réserver</td></tr>
+                        <tr><td class="english-col">rinse</td><td class="french-col">rincer</td></tr>
+                        <tr><td class="english-col">roast</td><td class="french-col">rôtir</td></tr>
+                        <tr><td class="english-col">roast meat</td><td class="french-col">rôtir la viande</td></tr>
+                        <tr><td class="english-col">roast, toast</td><td class="french-col">griller</td></tr>
+                        <tr><td class="english-col">roll</td><td class="french-col">rouler</td></tr>
+                        <tr><td class="english-col">rub</td><td class="french-col">frotter</td></tr>
+                        <tr><td class="english-col">salt</td><td class="french-col">saler</td></tr>
+                        <tr><td class="english-col">saute vegetables with peas</td><td class="french-col">sauter les légumes aux petits pois</td></tr>
+                        <tr><td class="english-col">saute with low fire</td><td class="french-col">faire revenir à feu doux</td></tr>
+                        <tr><td class="english-col">season (salt, pepper, spices)</td><td class="french-col">assaisonner (sel, poivre, épices)</td></tr>
+                        <tr><td class="english-col">season</td><td class="french-col">assaisonner</td></tr>
+                        <tr><td class="english-col"><strong>separate</strong></td><td class="french-col"><strong>séparer</strong></td></tr>
+                        <tr><td class="english-col">serve</td><td class="french-col">servir</td></tr>
+                        <tr><td class="english-col">share</td><td class="french-col">partager</td></tr>
+                        <tr><td class="english-col">sift</td><td class="french-col">tamiser</td></tr>
+                        <tr><td class="english-col">simmer</td><td class="french-col">mijoter</td></tr>
+                        <tr><td class="english-col">smooth</td><td class="french-col">lisser</td></tr>
+                        <tr><td class="english-col">sprinkle</td><td class="french-col">saupoudrer</td></tr>
+                        <tr><td class="english-col">steam</td><td class="french-col">cuire à la vapeur</td></tr>
+                        <tr><td class="english-col">stir</td><td class="french-col">remuer</td></tr>
+                        <tr><td class="english-col">stir, mix</td><td class="french-col">mélanger</td></tr>
+                        <tr><td class="english-col">store</td><td class="french-col">conserver</td></tr>
+                        <tr><td class="english-col">stuff, fill</td><td class="french-col">farcir</td></tr>
+                        <tr><td class="english-col">throw</td><td class="french-col">jeter</td></tr>
+                        <tr><td class="english-col">tie</td><td class="french-col">attacher</td></tr>
+                        <tr><td class="english-col">tighten</td><td class="french-col">serrer</td></tr>
+                        <tr><td class="english-col">turn over a dish</td><td class="french-col">retourner un plat</td></tr>
+                        <tr><td class="english-col">wash</td><td class="french-col">laver</td></tr>
+                        <tr><td class="english-col">wash the dishes</td><td class="french-col">faire la vaisselle</td></tr>
+                        <tr><td class="english-col">water</td><td class="french-col">arroser</td></tr>
+                        <tr><td class="english-col">water with oil</td><td class="french-col">arroser d'huile</td></tr>
+                        <tr><td class="english-col">weigh</td><td class="french-col">peser</td></tr>
+                        <tr><td class="english-col">whip</td><td class="french-col">fouetter</td></tr>
+                        <tr><td class="english-col">wrap</td><td class="french-col">envelopper</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>French Verbs Reference</strong></p>
+            <p>Professional vocabulary compilation with comprehensive data cleaning presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>

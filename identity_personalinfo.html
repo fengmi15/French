@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Identity & Personal Information Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #4169E1 0%, #FFFFFF 50%, #DC143C 100%);
+            color: #2c3e50;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #4169E1 0%, #FFFFFF 50%, #DC143C 100%);
+        }
+        
+        thead th {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            font-weight: 500;
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col::before {
+            content: "• ";
+            color: #4169E1;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .same-word {
+            font-weight: bold;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- PERSONAL INFORMATION NOUNS SECTION -->
+        <div class="section-header">Personal Information - Informations Personnelles</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a form</td><td class="french-col">un formulaire</td></tr>
+                        <tr><td class="english-col">a piece of information</td><td class="french-col">une information</td></tr>
+                        <tr><td class="english-col"><strong>age</strong></td><td class="french-col"><strong>l'âge (m.)</strong></td></tr>
+                        <tr><td class="english-col">areas of interest</td><td class="french-col">les centres d'intérêt</td></tr>
+                        <tr><td class="english-col">blood type</td><td class="french-col">le groupe sanguin</td></tr>
+                        <tr><td class="english-col">country of birth</td><td class="french-col">le pays de naissance</td></tr>
+                        <tr><td class="english-col">date of birth</td><td class="french-col">la date de naissance</td></tr>
+                        <tr><td class="english-col">diplomas</td><td class="french-col">les diplômes</td></tr>
+                        <tr><td class="english-col">driver's license</td><td class="french-col">le permis de conduire</td></tr>
+                        <tr><td class="english-col">e-mail address</td><td class="french-col">l'adresse e-mail</td></tr>
+                        <tr><td class="english-col">ethnicity</td><td class="french-col">l'ethnicité (f.)</td></tr>
+                        <tr><td class="english-col">fill out a form</td><td class="french-col">remplir un formulaire</td></tr>
+                        <tr><td class="english-col">first name</td><td class="french-col">le prénom</td></tr>
+                        <tr><td class="english-col">identity card (ID)</td><td class="french-col">la carte d'identité</td></tr>
+                        <tr><td class="english-col">last name, surname, family name</td><td class="french-col">le nom de famille</td></tr>
+                        <tr><td class="english-col">leisure time</td><td class="french-col">le temps libre</td></tr>
+                        <tr><td class="english-col">miss</td><td class="french-col">mademoiselle</td></tr>
+                        <tr><td class="english-col">mr.</td><td class="french-col">monsieur</td></tr>
+                        <tr><td class="english-col">ms.</td><td class="french-col">madame</td></tr>
+                        <tr><td class="english-col">nationality</td><td class="french-col">la nationalité</td></tr>
+                        <tr><td class="english-col">place of birth</td><td class="french-col">le lieu de naissance</td></tr>
+                        <tr><td class="english-col">place of residence</td><td class="french-col">le lieu de résidence</td></tr>
+                        <tr><td class="english-col"><strong>sex</strong></td><td class="french-col"><strong>le sexe</strong></td></tr>
+                        <tr><td class="english-col">studies</td><td class="french-col">les études</td></tr>
+                        <tr><td class="english-col">the address</td><td class="french-col">l'adresse (f.)</td></tr>
+                        <tr><td class="english-col">the astrological sign</td><td class="french-col">le signe astrologique</td></tr>
+                        <tr><td class="english-col">the job</td><td class="french-col">le travail</td></tr>
+                        <tr><td class="english-col">the passport</td><td class="french-col">le passeport</td></tr>
+                        <tr><td class="english-col">the phone number</td><td class="french-col">le numéro de téléphone</td></tr>
+                        <tr><td class="english-col">the postcode</td><td class="french-col">le code postal</td></tr>
+                        <tr><td class="english-col">the size</td><td class="french-col">la taille</td></tr>
+                        <tr><td class="english-col">the social security number</td><td class="french-col">le numéro de sécurité sociale</td></tr>
+                        <tr><td class="english-col">the weight</td><td class="french-col">le poids</td></tr>
+                        <tr><td class="english-col">work experience</td><td class="french-col">l'expérience professionnelle</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+                <!-- MARITAL STATUS ADJECTIVES SECTION -->
+                <div class="section-header">Marital Status - État Civil</div>
+                <div class="table-container">
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="english-col">English</th>
+                                    <th class="french-col">French</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="english-col">divorced</td>
+                                    <td class="french-col">divorcé / divorcée</td>
+                                </tr>
+                                <tr>
+                                    <td class="english-col">married</td>
+                                    <td class="french-col">marié / mariée</td>
+                                </tr>
+                                <tr>
+                                    <td class="english-col">separated</td>
+                                    <td class="french-col">séparé / séparée</td>
+                                </tr>
+                                <tr>
+                                    <td class="english-col">single</td>
+                                    <td class="french-col">célibataire</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+        
+                <!-- USEFUL VERBS SECTION -->
+                <div class="section-header">Useful Verbs - Verbes Utiles</div>
+                <div class="table-container">
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="english-col">English</th>
+                                    <th class="french-col">French</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="english-col">to be, to come from</td>
+                                    <td class="french-col">être de</td>
+                                </tr>
+                                <tr>
+                                    <td class="english-col">to introduce yourself</td>
+                                    <td class="french-col">se présenter</td>
+                                </tr>
+                                <tr>
+                                    <td class="english-col">to live</td>
+                                    <td class="french-col">vivre</td>
+                                </tr>
+                                <tr>
+                                    <td class="english-col">to spell</td>
+                                    <td class="french-col">épeler</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+        
+                <div class="footer">
+                    <p><strong>French Identity & Personal Information Vocabulary Reference</strong></p>
+                    <p>Professional vocabulary compilation with comprehensive data cleaning presented by meliglossa</p>
+                </div>
+            </div>
+        </body>
+        </html>

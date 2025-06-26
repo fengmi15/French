@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Time Vocabulary Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #0055a4 0%, #ffffff 50%, #ef4135 100%);
+            color: #2c3e50;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #0055a4 0%, #ffffff 50%, #ef4135 100%);
+        }
+        
+        thead th {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            font-weight: 500;
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col::before {
+            content: "• ";
+            color: #0055a4;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .identical-word {
+            font-weight: bold !important;
+            font-style: normal !important;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- DAYS OF THE WEEK SECTION -->
+        <div class="section-header">Days of the Week - Jours de la Semaine</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">Monday</td><td class="french-col">lundi</td></tr>
+                        <tr><td class="english-col">Tuesday</td><td class="french-col">mardi</td></tr>
+                        <tr><td class="english-col">Wednesday</td><td class="french-col">mercredi</td></tr>
+                        <tr><td class="english-col">Thursday</td><td class="french-col">jeudi</td></tr>
+                        <tr><td class="english-col">Friday</td><td class="french-col">vendredi</td></tr>
+                        <tr><td class="english-col">Saturday</td><td class="french-col">samedi</td></tr>
+                        <tr><td class="english-col">Sunday</td><td class="french-col">dimanche</td></tr>
+                        <tr><td class="english-col">weekday</td><td class="french-col">jour de semaine</td></tr>
+                        <tr><td class="english-col">weekend</td><td class="french-col">week-end</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- MONTHS SECTION -->
+        <div class="section-header">Months - Mois</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">January</td><td class="french-col">janvier</td></tr>
+                        <tr><td class="english-col">February</td><td class="french-col">février</td></tr>
+                        <tr><td class="english-col">March</td><td class="french-col">mars</td></tr>
+                        <tr><td class="english-col">April</td><td class="french-col">avril</td></tr>
+                        <tr><td class="english-col">May</td><td class="french-col">mai</td></tr>
+                        <tr><td class="english-col">June</td><td class="french-col">juin</td></tr>
+                        <tr><td class="english-col">July</td><td class="french-col">juillet</td></tr>
+                        <tr><td class="english-col">August</td><td class="french-col">août</td></tr>
+                        <tr><td class="english-col">September</td><td class="french-col">septembre</td></tr>
+                        <tr><td class="english-col">October</td><td class="french-col">octobre</td></tr>
+                        <tr><td class="english-col">November</td><td class="french-col">novembre</td></tr>
+                        <tr><td class="english-col">December</td><td class="french-col">décembre</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- SEASONS AND TIME UNITS SECTION -->
+        <div class="section-header">Seasons and Time Units - Saisons et Unités de Temps</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">spring</td><td class="french-col">printemps</td></tr>
+                        <tr><td class="english-col">summer</td><td class="french-col">été</td></tr>
+                        <tr><td class="english-col">autumn, fall</td><td class="french-col">automne</td></tr>
+                        <tr><td class="english-col">winter</td><td class="french-col">hiver</td></tr>
+                        <tr><td class="english-col">season</td><td class="french-col">saison</td></tr>
+                        <tr><td class="english-col">day</td><td class="french-col">jour</td></tr>
+                        <tr><td class="english-col">week</td><td class="french-col">semaine</td></tr>
+                        <tr><td class="english-col">month</td><td class="french-col">mois</td></tr>
+                        <tr><td class="english-col">year</td><td class="french-col">année</td></tr>
+                        <tr><td class="english-col">holiday</td><td class="french-col">vacances</td></tr>
+                        <tr><td class="english-col">birthday</td><td class="french-col">anniversaire</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- TIME PERIODS SECTION -->
+        <div class="section-header">Time Periods - Périodes de Temps</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">morning</td><td class="french-col">matin</td></tr>
+                        <tr><td class="english-col">afternoon</td><td class="french-col">après-midi</td></tr>
+                        <tr><td class="english-col">evening</td><td class="french-col">soir</td></tr>
+                        <tr><td class="english-col">night</td><td class="french-col">nuit</td></tr>
+                        <tr><td class="english-col">dawn</td><td class="french-col">aube</td></tr>
+                        <tr><td class="english-col">dusk</td><td class="french-col">crépuscule</td></tr>
+                        <tr><td class="english-col">midnight</td><td class="french-col">minuit</td></tr>
+                        <tr><td class="english-col">noon</td><td class="french-col">midi</td></tr>
+                        <tr><td class="english-col">sunrise</td><td class="french-col">lever du soleil</td></tr>
+                        <tr><td class="english-col">sunset</td><td class="french-col">coucher du soleil</td></tr>
+                        <tr><td class="english-col">second</td><td class="french-col">seconde</td></tr>
+                        <tr><td class="english-col identical-word">minute</td><td class="french-col identical-word">minute</td></tr>
+                        <tr><td class="english-col">hour</td><td class="french-col">heure</td></tr>
+                        <tr><td class="english-col">quarter</td><td class="french-col">quart</td></tr>
+                        <tr><td class="english-col">half</td><td class="french-col">demi</td></tr>
+                        <tr><td class="english-col">century</td><td class="french-col">siècle</td></tr>
+                        <tr><td class="english-col">decade</td><td class="french-col">décennie</td></tr>
+                        <tr><td class="english-col">millennium</td><td class="french-col">millénaire</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- CLOCK AND TIME TELLING SECTION -->
+        <div class="section-header">Clock and Time Telling - Horloge et Heure</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">clock</td><td class="french-col">horloge</td></tr>
+                        <tr><td class="english-col">watch</td><td class="french-col">montre</td></tr>
+                        <tr><td class="english-col">time</td><td class="french-col">temps</td></tr>
+                        <tr><td class="english-col">what time is it?</td><td class="french-col">quelle heure est-il?</td></tr>
+                        <tr><td class="english-col">it's one o'clock</td><td class="french-col">il est une heure</td></tr>
+                        <tr><td class="english-col">it's two o'clock</td><td class="french-col">il est deux heures</td></tr>
+                        <tr><td class="english-col">quarter past</td><td class="french-col">et quart</td></tr>
+                        <tr><td class="english-col">half past</td><td class="french-col">et demie</td></tr>
+                        <tr><td class="english-col">quarter to</td><td class="french-col">moins le quart</td></tr>
+                        <tr><td class="english-col">five past</td><td class="french-col">cinq</td></tr>
+                        <tr><td class="english-col">ten past</td><td class="french-col">dix</td></tr>
+                        <tr><td class="english-col">twenty past</td><td class="french-col">vingt</td></tr>
+                        <tr><td class="english-col">twenty-five past</td><td class="french-col">vingt-cinq</td></tr>
+                        <tr><td class="english-col">twenty-five to</td><td class="french-col">moins vingt-cinq</td></tr>
+                        <tr><td class="english-col">twenty to</td><td class="french-col">moins vingt</td></tr>
+                        <tr><td class="english-col">ten to</td><td class="french-col">moins dix</td></tr>
+                        <tr><td class="english-col">five to</td><td class="french-col">moins cinq</td></tr>
+                        <tr><td class="english-col">o'clock</td><td class="french-col">heure(s)</td></tr>
+                        <tr><td class="english-col">in the morning</td><td class="french-col">du matin</td></tr>
+                        <tr><td class="english-col">in the afternoon</td><td class="french-col">de l'après-midi</td></tr>
+                        <tr><td class="english-col">in the evening</td><td class="french-col">du soir</td></tr>
+                        <tr><td class="english-col">at night</td><td class="french-col">de la nuit</td></tr>
+                        <tr><td class="english-col">alarm clock</td><td class="french-col">réveil</td></tr>
+                        <tr><td class="english-col">timer</td><td class="french-col">minuteur</td></tr>
+                        <tr><td class="english-col">stopwatch</td><td class="french-col">chronomètre</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- TIME EXPRESSIONS SECTION -->
+        <div class="section-header">Time Expressions - Expressions de Temps</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">now</td><td class="french-col">maintenant</td></tr>
+                        <tr><td class="english-col">later</td><td class="french-col">plus tard</td></tr>
+                        <tr><td class="english-col">before</td><td class="french-col">avant</td></tr>
+                        <tr><td class="english-col">after</td><td class="french-col">après</td></tr>
+                        <tr><td class="english-col">during</td><td class="french-col">pendant</td></tr>
+                        <tr><td class="english-col">while</td><td class="french-col">tandis que</td></tr>
+                        <tr><td class="english-col">since</td><td class="french-col">depuis</td></tr>
+                        <tr><td class="english-col">until</td><td class="french-col">jusqu'à</td></tr>
+                        <tr><td class="english-col">already</td><td class="french-col">déjà</td></tr>
+                        <tr><td class="english-col">still</td><td class="french-col">encore</td></tr>
+                        <tr><td class="english-col">not yet</td><td class="french-col">pas encore</td></tr>
+                        <tr><td class="english-col">just</td><td class="french-col">juste</td></tr>
+                        <tr><td class="english-col">soon</td><td class="french-col">bientôt</td></tr>
+                        <tr><td class="english-col">early</td><td class="french-col">tôt</td></tr>
+                        <tr><td class="english-col">late</td><td class="french-col">tard</td></tr>
+                        <tr><td class="english-col">on time</td><td class="french-col">à l'heure</td></tr>
+                        <tr><td class="english-col">in advance</td><td class="french-col">à l'avance</td></tr>
+                        <tr><td class="english-col">delay</td><td class="french-col">retard</td></tr>
+                        <tr><td class="english-col">punctual</td><td class="french-col">ponctuel</td></tr>
+                        <tr><td class="english-col identical-word">moment</td><td class="french-col identical-word">moment</td></tr>
+                        <tr><td class="english-col">instant</td><td class="french-col">instant</td></tr>
+                        <tr><td class="english-col">period</td><td class="french-col">période</td></tr>
+                        <tr><td class="english-col">duration</td><td class="french-col">durée</td></tr>
+                        <tr><td class="english-col">temporarily</td><td class="french-col">temporairement</td></tr>
+                        <tr><td class="english-col">permanently</td><td class="french-col">définitivement</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- FREQUENCY AND OCCURRENCE SECTION -->
+        <div class="section-header">Frequency and Occurrence - Fréquence et Occurrence</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">always</td><td class="french-col">toujours</td></tr>
+                        <tr><td class="english-col">never</td><td class="french-col">jamais</td></tr>
+                        <tr><td class="english-col">sometimes</td><td class="french-col">parfois</td></tr>
+                        <tr><td class="english-col">often</td><td class="french-col">souvent</td></tr>
+                        <tr><td class="english-col">rarely</td><td class="french-col">rarement</td></tr>
+                        <tr><td class="english-col">frequently</td><td class="french-col">fréquemment</td></tr>
+                        <tr><td class="english-col">occasionally</td><td class="french-col">occasionnellement</td></tr>
+                        <tr><td class="english-col">usually</td><td class="french-col">d'habitude</td></tr>
+                        <tr><td class="english-col">normally</td><td class="french-col">normalement</td></tr>
+                        <tr><td class="english-col">regularly</td><td class="french-col">régulièrement</td></tr>
+                        <tr><td class="english-col">daily</td><td class="french-col">quotidien</td></tr>
+                        <tr><td class="english-col">weekly</td><td class="french-col">hebdomadaire</td></tr>
+                        <tr><td class="english-col">monthly</td><td class="french-col">mensuel</td></tr>
+                        <tr><td class="english-col">yearly</td><td class="french-col">annuel</td></tr>
+                        <tr><td class="english-col">once</td><td class="french-col">une fois</td></tr>
+                        <tr><td class="english-col">twice</td><td class="french-col">deux fois</td></tr>
+                        <tr><td class="english-col">three times</td><td class="french-col">trois fois</td></tr>
+                        <tr><td class="english-col">several times</td><td class="french-col">plusieurs fois</td></tr>
+                        <tr><td class="english-col">many times</td><td class="french-col">beaucoup de fois</td></tr>
+                        <tr><td class="english-col">every day</td><td class="french-col">tous les jours</td></tr>
+                        <tr><td class="english-col">every week</td><td class="french-col">toutes les semaines</td></tr>
+                        <tr><td class="english-col">every month</td><td class="french-col">tous les mois</td></tr>
+                        <tr><td class="english-col">every year</td><td class="french-col">tous les ans</td></tr>
+                        <tr><td class="english-col">from time to time</td><td class="french-col">de temps en temps</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- PAST, PRESENT, FUTURE SECTION -->
+        <div class="section-header">Past, Present, Future - Passé, Présent, Futur</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">past</td><td class="french-col">passé</td></tr>
+                        <tr><td class="english-col">present</td><td class="french-col">présent</td></tr>
+                        <tr><td class="english-col">future</td><td class="french-col">futur</td></tr>
+                        <tr><td class="english-col">yesterday</td><td class="french-col">hier</td></tr>
+                        <tr><td class="english-col">today</td><td class="french-col">aujourd'hui</td></tr>
+                        <tr><td class="english-col">tomorrow</td><td class="french-col">demain</td></tr>
+                        <tr><td class="english-col">the day before yesterday</td><td class="french-col">avant-hier</td></tr>
+                        <tr><td class="english-col">the day after tomorrow</td><td class="french-col">après-demain</td></tr>
+                        <tr><td class="english-col">last week</td><td class="french-col">la semaine dernière</td></tr>
+                        <tr><td class="english-col">this week</td><td class="french-col">cette semaine</td></tr>
+                        <tr><td class="english-col">next week</td><td class="french-col">la semaine prochaine</td></tr>
+                        <tr><td class="english-col">last month</td><td class="french-col">le mois dernier</td></tr>
+                        <tr><td class="english-col">this month</td><td class="french-col">ce mois-ci</td></tr>
+                        <tr><td class="english-col">next month</td><td class="french-col">le mois prochain</td></tr>
+                        <tr><td class="english-col">last year</td><td class="french-col">l'année dernière</td></tr>
+                        <tr><td class="english-col">this year</td><td class="french-col">cette année</td></tr>
+                        <tr><td class="english-col">next year</td><td class="french-col">l'année prochaine</td></tr>
+                        <tr><td class="english-col">recently</td><td class="french-col">récemment</td></tr>
+                        <tr><td class="english-col">formerly</td><td class="french-col">autrefois</td></tr>
+                        <tr><td class="english-col">previously</td><td class="french-col">précédemment</td></tr>
+                        <tr><td class="english-col">currently</td><td class="french-col">actuellement</td></tr>
+                        <tr><td class="english-col">eventually</td><td class="french-col">finalement</td></tr>
+                        <tr><td class="english-col">immediately</td><td class="french-col">immédiatement</td></tr>
+                        <tr><td class="english-col">suddenly</td><td class="french-col">soudainement</td></tr>
+                        <tr><td class="english-col">gradually</td><td class="french-col">graduellement</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>French Time Vocabulary Reference</strong></p>
+            <p>Professional vocabulary compilation presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>
