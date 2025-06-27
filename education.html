@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Education Vocabulary Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #0055a4 0%, #ffffff 50%, #ef4135 100%);
+            color: #2c3e50;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #0055a4 0%, #ffffff 50%, #ef4135 100%);
+        }
+        
+        thead th {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            font-weight: 500;
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col::before {
+            content: "• ";
+            color: #0055a4;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .same-spelling {
+            font-weight: bold;
+            color: #ef4135;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- AT SCHOOL SECTION -->
+        <div class="section-header">At School - À l'École</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a boarding school</td><td class="french-col">un internat</td></tr>
+                        <tr><td class="english-col">a canteen</td><td class="french-col">une cantine</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">class</span></td><td class="french-col">une <span class="same-spelling">classe</span></td></tr>
+                        <tr><td class="english-col">a classroom</td><td class="french-col">une salle de classe</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">college</span>, a university</td><td class="french-col">un <span class="same-spelling">collège</span>, une université</td></tr>
+                        <tr><td class="english-col">a comprehensive school</td><td class="french-col">un établissement d'enseignement général</td></tr>
+                        <tr><td class="english-col">a gym</td><td class="french-col">un gymnase</td></tr>
+                        <tr><td class="english-col">a junior high school</td><td class="french-col">un collège</td></tr>
+                        <tr><td class="english-col">a kindergarten</td><td class="french-col">un jardin d'enfants</td></tr>
+                        <tr><td class="english-col">a library</td><td class="french-col">une bibliothèque</td></tr>
+                        <tr><td class="english-col">a nursery school</td><td class="french-col">une école maternelle</td></tr>
+                        <tr><td class="english-col">a playground</td><td class="french-col">une cour de récréation</td></tr>
+                        <tr><td class="english-col">a primary school</td><td class="french-col">une école primaire</td></tr>
+                        <tr><td class="english-col">a private school</td><td class="french-col">une école privée</td></tr>
+                        <tr><td class="english-col">a public school, a state school</td><td class="french-col">une école publique</td></tr>
+                        <tr><td class="english-col">a registration room</td><td class="french-col">un bureau d'inscription</td></tr>
+                        <tr><td class="english-col">a secondary school</td><td class="french-col">un lycée</td></tr>
+                        <tr><td class="english-col">a technical <span class="same-spelling">college</span></td><td class="french-col">un <span class="same-spelling">collège</span> technique</td></tr>
+                        <tr><td class="english-col">a yard</td><td class="french-col">une cour</td></tr>
+                        <tr><td class="english-col">an assembly hall</td><td class="french-col">une salle de réunion</td></tr>
+                        <tr><td class="english-col">an elementary school</td><td class="french-col">une école élémentaire</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling"> an infirmary</span>, a sickroom</td><td class="french-col"><span class="same-spelling"> une infirmerie</span></td></tr>
+                        <tr><td class="english-col">break</td><td class="french-col">la pause</td></tr>
+                        <tr><td class="english-col">headteacher's office</td><td class="french-col">le bureau du directeur</td></tr>
+                        <tr><td class="english-col">recess</td><td class="french-col">la récréation</td></tr>
+                        <tr><td class="english-col">the principal's office</td><td class="french-col">le bureau du principal</td></tr>
+                        <tr><td class="english-col">the staff room</td><td class="french-col">la salle des professeurs</td></tr>
+                        <tr><td class="english-col">the teacher's lounge</td><td class="french-col">la salle des enseignants</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- THE CLASSROOM SECTION -->
+        <div class="section-header">The Classroom - La Salle de Classe</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a bad pupil</td><td class="french-col">un mauvais élève</td></tr>
+                        <tr><td class="english-col">a ball point pen</td><td class="french-col">un stylo à bille</td></tr>
+                        <tr><td class="english-col">a blackboard</td><td class="french-col">un tableau noir</td></tr>
+                        <tr><td class="english-col">a boarder</td><td class="french-col">un pensionnaire</td></tr>
+                        <tr><td class="english-col">a book</td><td class="french-col">un livre</td></tr>
+                        <tr><td class="english-col">a calculator</td><td class="french-col">une calculatrice</td></tr>
+                        <tr><td class="english-col">a careers advisor</td><td class="french-col">un conseiller d'orientation</td></tr>
+                        <tr><td class="english-col">a chair</td><td class="french-col">une chaise</td></tr>
+                        <tr><td class="english-col">a chalk</td><td class="french-col">une craie</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling"> a compass</span></td><td class="french-col"><span class="same-spelling"> un compas</span></td></tr>
+                        <tr><td class="english-col">a computer</td><td class="french-col">un ordinateur</td></tr>
+                        <tr><td class="english-col">a cupboard, a locker</td><td class="french-col">un casier</td></tr>
+                        <tr><td class="english-col">a desk</td><td class="french-col">un bureau</td></tr>
+                        <tr><td class="english-col">a dictionary</td><td class="french-col">un dictionnaire</td></tr>
+                        <tr><td class="english-col">a drawing paper</td><td class="french-col">du papier à dessin</td></tr>
+                        <tr><td class="english-col">a feltip</td><td class="french-col">un feutre</td></tr>
+                        <tr><td class="english-col">a folder</td><td class="french-col">un dossier</td></tr>
+                        <tr><td class="english-col">a good pupil</td><td class="french-col">un bon élève</td></tr>
+                        <tr><td class="english-col">a gym</td><td class="french-col">un gymnase</td></tr>
+                        <tr><td class="english-col">a headmaster</td><td class="french-col">un directeur d'école</td></tr>
+                        <tr><td class="english-col">a headmistress</td><td class="french-col">une directrice d'école</td></tr>
+                        <tr><td class="english-col">a headteacher</td><td class="french-col">un chef d'établissement</td></tr>
+                        <tr><td class="english-col">a highlighter</td><td class="french-col">un surligneur</td></tr>
+                        <tr><td class="english-col">a kindergarten teacher</td><td class="french-col">un instituteur de maternelle</td></tr>
+                        <tr><td class="english-col">a marker pen</td><td class="french-col">un marqueur</td></tr>
+                        <tr><td class="english-col">a mat</td><td class="french-col">un tapis</td></tr>
+                        <tr><td class="english-col">a maths teacher</td><td class="french-col">un professeur de mathématiques</td></tr>
+                        <tr><td class="english-col">a nurse</td><td class="french-col">une infirmière</td></tr>
+                        <tr><td class="english-col">a paint brush</td><td class="french-col">un pinceau</td></tr>
+                        <tr><td class="english-col">a PE teacher</td><td class="french-col">un professeur d'éducation physique</td></tr>
+                        <tr><td class="english-col">a pen</td><td class="french-col">un stylo</td></tr>
+                        <tr><td class="english-col">a pencil</td><td class="french-col">un crayon</td></tr>
+                        <tr><td class="english-col">a pencil case</td><td class="french-col">une trousse</td></tr>
+                        <tr><td class="english-col">a pencil sharpener</td><td class="french-col">un taille-crayon</td></tr>
+                        <tr><td class="english-col">a playing field</td><td class="french-col">un terrain de jeu</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">principal</span></td><td class="french-col">un <span class="same-spelling">principal</span></td></tr>
+                        <tr><td class="english-col">a primary school teacher, an elementary school teacher</td><td class="french-col">un instituteur</td></tr>
+                        <tr><td class="english-col">a protractor</td><td class="french-col">un rapporteur</td></tr>
+                        <tr><td class="english-col">a pupil</td><td class="french-col">un élève</td></tr>
+                        <tr><td class="english-col">a ruler</td><td class="french-col">une règle</td></tr>
+                        <tr><td class="english-col">a school bag</td><td class="french-col">un sac d'école</td></tr>
+                        <tr><td class="english-col">a school boy</td><td class="french-col">un écolier</td></tr>
+                        <tr><td class="english-col">a school friend</td><td class="french-col">un camarade de classe</td></tr>
+                        <tr><td class="english-col">a school girl</td><td class="french-col">une écolière</td></tr>
+                        <tr><td class="english-col">a school secretary</td><td class="french-col">une secrétaire d'école</td></tr>
+                        <tr><td class="english-col">a slide</td><td class="french-col">une diapositive</td></tr>
+                        <tr><td class="english-col">a sponge</td><td class="french-col">une éponge</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">student</span></td><td class="french-col">un <span class="same-spelling">étudiant</span></td></tr>
+                        <tr><td class="english-col">a substitute teacher, a supply teacher</td><td class="french-col">un professeur remplaçant</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">table</span></td><td class="french-col">une <span class="same-spelling">table</span></td></tr>
+                        <tr><td class="english-col">a teacher</td><td class="french-col">un professeur</td></tr>
+                        <tr><td class="english-col">a text book</td><td class="french-col">un manuel scolaire</td></tr>
+                        <tr><td class="english-col"><span class="identical-word"> a trampoline</span></td><td class="french-col"><span class="identical-word"> un trampoline</span></td></tr>
+                        <tr><td class="english-col">a tube of paint</td><td class="french-col">un tube de peinture</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">tutor</span></td><td class="french-col">un <span class="same-spelling">tuteur</span></td></tr>
+                        <tr><td class="english-col">a white board</td><td class="french-col">un tableau blanc</td></tr>
+                        <tr><td class="english-col">a work book</td><td class="french-col">un cahier d'exercices</td></tr>
+                        <tr><td class="english-col">an easel</td><td class="french-col">un chevalet</td></tr>
+                        <tr><td class="english-col">an english teacher</td><td class="french-col">un professeur d'anglais</td></tr>
+                        <tr><td class="english-col">an eraser, a rubber</td><td class="french-col">une gomme</td></tr>
+                        <tr><td class="english-col">an exercise book</td><td class="french-col">un cahier d'exercices</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling"> an inspector</span></td><td class="french-col"><span class="same-spelling"> un inspecteur</span></td></tr>
+                        <tr><td class="english-col">an interactive white board</td><td class="french-col">un tableau blanc interactif</td></tr>
+                        <tr><td class="english-col">an overhead projector</td><td class="french-col">un rétroprojecteur</td></tr>
+                        <tr><td class="english-col">painting</td><td class="french-col">la peinture</td></tr>
+                        <tr><td class="english-col">teachers and pupils</td><td class="french-col">les professeurs et les élèves</td></tr>
+                        <tr><td class="english-col">the teacher's desk</td><td class="french-col">le bureau du professeur</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- TEACHING SECTION -->
+        <div class="section-header">Teaching - L'Enseignement</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a bachelor's degree</td><td class="french-col">une licence</td></tr>
+                        <tr><td class="english-col">a bad mark</td><td class="french-col">une mauvaise note</td></tr>
+                        <tr><td class="english-col">a bell</td><td class="french-col">une cloche</td></tr>
+                        <tr><td class="english-col">a break</td><td class="french-col">une récréation</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling"> a certificate</span></td><td class="french-col"><span class="same-spelling"> un certificat</span></td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">a chair</span>(academic position sense)</td><td class="french-col"><span class="same-spelling">une chaire</span></td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">class</span></td><td class="french-col">une <span class="same-spelling">classe</span></td></tr>
+                        <tr><td class="english-col">a classmate</td><td class="french-col">un camarade de classe</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">course</span></td><td class="french-col">un <span class="same-spelling">cours</span></td></tr>
+                        <tr><td class="english-col">a curriculum</td><td class="french-col">un programme d'études</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">department</span></td><td class="french-col">un <span class="same-spelling">département</span></td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">diploma</span></td><td class="french-col">un <span class="same-spelling">diplôme</span></td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">discipline</span></td><td class="french-col">une <span class="same-spelling">discipline</span></td></tr>
+                        <tr><td class="english-col">a dormitory</td><td class="french-col">un dortoir</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">double period</span></td><td class="french-col"><span class="same-spelling"><span class="same-spelling">une période double</span> </td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">drama</span></td><td class="french-col">un <span class="same-spelling"> drame</span></td></tr>
+                        <tr><td class="english-col">a french class</span></td><td class="french-col">un cours de français</td></tr>
+                        <tr><td class="english-col">a freshman</td><td class="french-col">un étudiant de première année</td></tr>
+                        <tr><td class="english-col">a gap year</td><td class="french-col">une année sabbatique</td></tr>
+                        <tr><td class="english-col">a grade, a mark</td><td class="french-col">une note</td></tr>
+                        <tr><td class="english-col">a graduate <span class="same-spelling">student</span></td><td class="french-col">un <span class="same-spelling">étudiant</span> diplômé</td></tr>
+                        <tr><td class="english-col">a grammatical rule</td><td class="french-col">une règle grammaticale</td></tr>
+                        <tr><td class="english-col">a home room</td><td class="french-col">une salle de permanence</td></tr>
+                        <tr><td class="english-col">a lecture</td><td class="french-col">une conférence</td></tr>
+                        <tr><td class="english-col">a lecture hall</td><td class="french-col">un amphithéâtre</td></tr>
+                        <tr><td class="english-col">a lecturer</td><td class="french-col">un conférencier</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">lesson</span></td><td class="french-col">une <span class="same-spelling">leçon</span></td></tr>
+                        <tr><td class="english-col">a maths class</td><td class="french-col">un cours de mathématiques</td></tr>
+                        <tr><td class="english-col">a mistake</td><td class="french-col">une erreur</td></tr>
+                        <tr><td class="english-col">a mock exam, a practice test</td><td class="french-col">un examen blanc</td></tr>
+                        <tr><td class="english-col">a pass mark</td><td class="french-col">une note de passage</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">period</span></td><td class="french-col">une <span class="same-spelling">période</span></td></tr>
+                        <tr><td class="english-col">a PHD</td><td class="french-col">un doctorat</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling"> presentation</span></td><td class="french-col">une <span class="same-spelling"> présentation</span></td></tr>
+                        <tr><td class="english-col">a prize</td><td class="french-col">un prix</td></tr>
+                        <tr><td class="english-col">a private tuition, an individual tuition</td><td class="french-col">des cours particuliers</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">problem</span></td><td class="french-col">un <span class="same-spelling">problème</span></td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">professor</span></td><td class="french-col">un <span class="same-spelling">professeur</span></td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">project</span></td><td class="french-col">un <span class="same-spelling">projet</span></td></tr>
+                        <tr><td class="english-col">a punishment</td><td class="french-col">une punition</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">question</span></td><td class="french-col">une <span class="same-spelling">question</span></td></tr>
+                        <tr><td class="english-col">a report</td><td class="french-col">un bulletin scolaire</td></tr>
+                        <tr><td class="english-col">a school record</td><td class="french-col">un dossier scolaire</td></tr>
+                        <tr><td class="english-col">a school report</td><td class="french-col">un rapport scolaire</td></tr>
+                        <tr><td class="english-col">a school trip</td><td class="french-col">un voyage scolaire</td></tr>
+                        <tr><td class="english-col">a sophomore</td><td class="french-col">un étudiant de deuxième année</td></tr>
+                        <tr><td class="english-col">a square</td><td class="french-col">un carré</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">student</span></td><td class="french-col">un <span class="same-spelling">étudiant</span></td></tr>
+                        <tr><td class="english-col">a subject</td><td class="french-col">une matière</td></tr>
+                        <tr><td class="english-col">a term</td><td class="french-col">un trimestre</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">test</span></td><td class="french-col">un <span class="same-spelling">test</span></td></tr>
+                        <tr><td class="english-col">a thesis</td><td class="french-col">une thèse</td></tr>
+                        <tr><td class="english-col">a timetable</td><td class="french-col">un emploi du temps</td></tr>
+                        <tr><td class="english-col">a translation</td><td class="french-col">une traduction</td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">tutorial</span></td><td class="french-col">un <span class="same-spelling">tutoriel</span></td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">tutor</span></td><td class="french-col">un <span class="same-spelling">tuteur</span></td></tr>
+                        <tr><td class="english-col">a <span class="same-spelling">university</span></td><td class="french-col">une <span class="same-spelling">université</span></td></tr>
+                        <tr><td class="english-col">a workshop</td><td class="french-col">un atelier</td></tr>
+                        <tr><td class="english-col">a written paper, a written test</td><td class="french-col">un examen écrit</td></tr>
+                        <tr><td class="english-col">after school activities</td><td class="french-col">les activités périscolaires</td></tr>
+                        <tr><td class="english-col">an acute <span class="same-spelling">angle</span></td><td class="french-col">un <span class="same-spelling">angle</span> aigu</td></tr>
+                        <tr><td class="english-col">an answer</td><td class="french-col">une réponse</td></tr>
+                        <tr><td class="english-col">an essay</td><td class="french-col">une dissertation</td></tr>
+                        <tr><td class="english-col">an examination</td><td class="french-col">un examen</td></tr>
+                        <tr><td class="english-col">an examiner</td><td class="french-col">un examinateur</td></tr>
+                        <tr><td class="english-col">an exchange visit</td><td class="french-col">un échange</td></tr>
+                        <tr><td class="english-col">an <span class="same-spelling">exercise</span></td><td class="french-col">un <span class="same-spelling">exercice</span></td></tr>
+                        <tr><td class="english-col">an obtuse angle</td><td class="french-col">un angle obtus</td></tr>
+                        <tr><td class="english-col">an <span class="same-spelling">oral test</span></td><td class="french-col">un <span class="same-spelling">test oral</span></td></tr>
+                        <tr><td class="english-col">a right angle</td><td class="french-col">un angle droit</td></tr>
+                        <tr><td class="english-col">christmas holidays</td><td class="french-col">les vacances de Noël</td></tr>
+                        <tr><td class="english-col">continuous assessment</td><td class="french-col">l'évaluation continue</td></tr>
+                        <tr><td class="english-col">detention</td><td class="french-col">une retenue</td></tr>
+                        <tr><td class="english-col">Easter holidays</td><td class="french-col">les vacances de Pâques</td></tr>
+                        <tr><td class="english-col">free period</td><td class="french-col">une heure libre</td></tr>
+                        <tr><td class="english-col">graduation</td><td class="french-col">la remise des diplômes</td></tr>
+                        <tr><td class="english-col">high-school-diploma</td><td class="french-col">le baccalauréat</td></tr>
+                        <tr><td class="english-col">home time</td><td class="french-col">l'heure de sortie</td></tr>
+                        <tr><td class="english-col">homeworks</td><td class="french-col">les devoirs</td></tr>
+                        <tr><td class="english-col">lunch time</td><td class="french-col">l'heure du déjeuner</td></tr>
+                        <tr><td class="english-col">master's degree, masters</td><td class="french-col">un master</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">physical education</span></td><td class="french-col"><span class="same-spelling">l'éducation physique</span></td></tr>
+                        <tr><td class="english-col">post-graduate student</td><td class="french-col">un étudiant de troisième cycle</td></tr>
+                        <tr><td class="english-col">prizegiving</td><td class="french-col">la distribution des prix</td></tr>
+                        <tr><td class="english-col">registration</td><td class="french-col">l'inscription</td></tr>
+                        <tr><td class="english-col">school holidays</td><td class="french-col">les vacances scolaires</td></tr>
+                        <tr><td class="english-col">schooling</td><td class="french-col">la scolarité</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">strict</span></td><td class="french-col"><span class="same-spelling">strict(e)</span></td></tr>
+                        <tr><td class="english-col">students union</td><td class="french-col">un syndicat étudiant</td></tr>
+                        <tr><td class="english-col">summer holidays</td><td class="french-col">les vacances d'été</td></tr>
+                        <tr><td class="english-col">the school year</td><td class="french-col">l'année scolaire</td></tr>
+                        <tr><td class="english-col">tuition fees</td><td class="french-col">les frais de scolarité</td></tr>
+                        <tr><td class="english-col">vacations</td><td class="french-col">les vacances</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- BEHAVIOUR SECTION -->
+        <div class="section-header">Behaviour - Le Comportement</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="english-col">a bully</td>
+                            <td class="french-col">une brute</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col"><span class="same-spelling">absent</span></td>
+                            <td class="french-col"><span class="same-spelling">absent</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">an absentee</td>
+                            <td class="french-col">un absentéiste</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">a truant</td>
+                            <td class="french-col">un élève absent sans permission</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col"><span class="same-spelling">brilliant</span></td>
+                            <td class="french-col"><span class="same-spelling">brillant</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">clever, <span class="same-spelling">intelligent</span></td>
+                            <td class="french-col"><span class="same-spelling">intelligent</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">gifted</td>
+                            <td class="french-col">doué</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">hard-working</td>
+                            <td class="french-col">travailleur</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col"><span class="same-spelling">inattentive</span></td>
+                            <td class="french-col"><span class="same-spelling">inattentif</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col"><span class="same-spelling">present</span></td>
+                            <td class="french-col"><span class="same-spelling">présent</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">studious</td>
+                            <td class="french-col">studieux</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the dean</td>
+                            <td class="french-col">le doyen</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the workload</td>
+                            <td class="french-col">la charge de travail</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">undisciplined</td>
+                            <td class="french-col">indiscipliné</td>
+                          </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- SCHOOL SUBJECTS SECTION -->
+        <div class="section-header">School Subjects - Les Matières</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a subject</td><td class="french-col">une matière</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">algebra</span></td><td class="french-col">l'<span class="same-spelling">algèbre</span></td></tr>
+                        <tr><td class="english-col">ancient civilizations</td><td class="french-col">les civilisations anciennes</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">arithmetic</span></td><td class="french-col">l'<span class="same-spelling">arithmétique</span></td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">art</span></td><td class="french-col">l'<span class="same-spelling">art</span></td></tr>
+                        <tr><td class="english-col">biology</td><td class="french-col">la biologie</td></tr>
+                        <tr><td class="english-col">business studies</td><td class="french-col">les études commerciales</td></tr>
+                        <tr><td class="english-col">calculus</td><td class="french-col">le calcul</td></tr>
+                        <tr><td class="english-col">chemistry</td><td class="french-col">la chimie</td></tr>
+                        <tr><td class="english-col">compulsory</td><td class="french-col">obligatoire</td></tr>
+                        <tr><td class="english-col">computer studies</td><td class="french-col">l'informatique</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">conjugation</span> </td><td class="french-col"> la <span class="same-spelling"> conjugaison</span></td></tr>
+                        <tr><td class="english-col">economics</td><td class="french-col">l'économie</td></tr>
+                        <tr><td class="english-col">foreign languages</td><td class="french-col">les langues étrangères</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">geography</span></td><td class="french-col">la <span class="same-spelling">géographie</span></td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">geometry</span></td><td class="french-col">la <span class="same-spelling">géométrie</span></td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">grammar</span></td><td class="french-col">la <span class="same-spelling"> grammaire</span></td></tr>
+                        <tr><td class="english-col">greek</td><td class="french-col">le grec</td></tr>
+                        <tr><td class="english-col">history</td><td class="french-col">l'histoire</td></tr>
+                        <tr><td class="english-col">languages</td><td class="french-col">les langues</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">latin</span></td><td class="french-col">le <span class="same-spelling">latin</span></td></tr>
+                        <tr><td class="english-col">literature</td><td class="french-col">la littérature</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling"> medicine</span></td><td class="french-col">la <span class="same-spelling"> médecine</span></td></tr>
+                        <tr><td class="english-col">modern languages</td><td class="french-col">les langues modernes</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">music</span> </td><td class="french-col">la <span class="same-spelling"> musique</span></td></tr>
+                        <tr><td class="english-col">optional</td><td class="french-col">facultatif</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">physical education</span></td><td class="french-col"> <span class="same-spelling">l'éducation physique</span></td></tr>
+                        <tr><td class="english-col">physics</td><td class="french-col">la physique</td></tr>
+                        <tr><td class="english-col">religious education</td><td class="french-col">l'éducation religieuse</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">science</span></td><td class="french-col">la <span class="same-spelling">science</span></td></tr>
+                        <tr><td class="english-col"><SPAN class="same-spelling">sociology</span></td><td class="french-col"> la<span class="same-spelling"> sociologie</span></td></tr>
+                        <tr><td class="english-col">spelling</td><td class="french-col">l'orthographe</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">trigonometry</span></td><td class="french-col">la <span class="same-spelling">trigonométrie</span></td></tr>
+                        <tr><td class="english-col">vocabulary</td><td class="french-col">le vocabulaire</td></tr>
+                        <tr><td class="english-col">writing</td><td class="french-col">l'écriture</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- MATHS SECTION -->
+        <div class="section-header">Maths - Les Mathématiques</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="english-col">a <span class="same-spelling">division</span></td>
+                            <td class="french-col">une <span class="same-spelling">division</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">a <span class="same-spelling">multiplication</span></td>
+                            <td class="french-col">une <span class="same-spelling">multiplication</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">a <span class="same-spelling">subtraction</span></td>
+                            <td class="french-col">une <span class="same-spelling">soustraction</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">an <span class="same-spelling">equation</span></td>
+                            <td class="french-col">une <span class="same-spelling">équation</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-spelling">addition</span></td>
+                            <td class="french-col">l'<span class="same-spelling">addition</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-spelling">circumference</span></td>
+                            <td class="french-col">la <span class="same-spelling">circonférence</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-spelling">diameter</span></td>
+                            <td class="french-col">le <span class="same-spelling">diamètre</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the radius</td>
+                            <td class="french-col">le rayon</td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-spelling">result</span></td>
+                            <td class="french-col">le <span class="same-spelling">résultat</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-spelling">sum</span></td>
+                            <td class="french-col">la <span class="same-spelling">somme</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-spelling">surface</span></td>
+                            <td class="french-col">la <span class="same-spelling">surface</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-spelling">volume</span></td>
+                            <td class="french-col">le <span class="same-spelling">volume</span></td>
+                          </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- USEFUL VERBS SECTION -->
+        <div class="section-header">Useful Verbs - Verbes Utiles</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">to answer</td><td class="french-col">répondre</td></tr>
+                        <tr><td class="english-col">to ask</td><td class="french-col">demander</td></tr>
+                        <tr><td class="english-col">to bully</td><td class="french-col">harceler</td></tr>
+                        <tr><td class="english-col">to cheat</td><td class="french-col">tricher</td></tr>
+                        <tr><td class="english-col">to circle</td><td class="french-col">entourer</td></tr>
+                        <tr><td class="english-col">to cut classes, to skip classes, to play truant, to bunk off school</td><td class="french-col">sécher les cours</td></tr>
+                        <tr><td class="english-col">to do one's homework</td><td class="french-col">faire ses devoirs</td></tr>
+                        <tr><td class="english-col">to drop out of school</td><td class="french-col">abandonner l'école</td></tr>
+                        <tr><td class="english-col">to drop out of studies</td><td class="french-col">abandonner les études</td></tr>
+                        <tr><td class="english-col">to expel</td><td class="french-col">exclure</td></tr>
+                        <tr><td class="english-col">to fail an exam</td><td class="french-col">échouer à un examen</td></tr>
+                        <tr><td class="english-col">to flunk a test</td><td class="french-col">rater un test</td></tr>
+                        <tr><td class="english-col">to flunk an exam</td><td class="french-col">rater un examen</td></tr>
+                        <tr><td class="english-col">to get detention</td><td class="french-col">avoir une retenue</td></tr>
+                        <tr><td class="english-col">to get private tuition</td><td class="french-col">prendre des cours particuliers</td></tr>
+                        <tr><td class="english-col">to go to school</td><td class="french-col">aller à l'école</td></tr>
+                        <tr><td class="english-col">to go to the blackboard</td><td class="french-col">aller au tableau</td></tr>
+                        <tr><td class="english-col">to graduate</td><td class="french-col">obtenir un diplôme</td></tr>
+                        <tr><td class="english-col">to know</td><td class="french-col">savoir</td></tr>
+                        <tr><td class="english-col">to learn</td><td class="french-col">apprendre</td></tr>
+                        <tr><td class="english-col">to learn by heart</td><td class="french-col">apprendre par cœur</td></tr>
+                        <tr><td class="english-col">to pass an exam</td><td class="french-col">réussir un examen</td></tr>
+                        <tr><td class="english-col">to punish</td><td class="french-col">punir</td></tr>
+                        <tr><td class="english-col">to put one's hand up</td><td class="french-col">lever la main</td></tr>
+                        <tr><td class="english-col">to recite a poem</td><td class="french-col">réciter un poème</td></tr>
+                        <tr><td class="english-col">to repeat a grade, to repeat a year</td><td class="french-col">redoubler</td></tr>
+                        <tr><td class="english-col">to reprimand</td><td class="french-col">réprimander</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling"> to revise</span></td><td class="french-col"><span class="same-spelling"> réviser</span></td></tr>
+                        <tr><td class="english-col">to scold, to tell off</td><td class="french-col">gronder</td></tr>
+                        <tr><td class="english-col">to study</td><td class="french-col">étudier</td></tr>
+                        <tr><td class="english-col"><span class="same-spelling">to suspend</span></td><td class="french-col"><span class="same-spelling"> suspendre</span></td></tr>
+                        <tr><td class="english-col">to take an exam, to sit an exam</td><td class="french-col">passer un examen</td></tr>
+                        <tr><td class="english-col">to take the register</td><td class="french-col">faire l'appel</td></tr>
+                        <tr><td class="english-col">to take the roll call</td><td class="french-col">faire l'appel</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>French Education Vocabulary Reference</strong></p>
+            <p>Professional vocabulary compilation presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>
