@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Human Body & Senses Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #4169E1 0%, #FFFFFF 50%, #DC143C 100%);
+            color: #2c3e50;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #4169E1 0%, #FFFFFF 50%, #DC143C 100%);
+        }
+        
+        thead th {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            font-weight: 500;
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col::before {
+            content: "• ";
+            color: #4169E1;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .same-word {
+            font-weight: bold;
+            color: #ef4135;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEAD AND FACE SECTION -->
+        <div class="section-header">Head and Face - Tête et Visage</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a beard</td><td class="french-col">une barbe</td></tr>
+                        <tr><td class="english-col">a beauty spot</td><td class="french-col">un grain de beauté</td></tr>
+                        <tr><td class="english-col">a cheekbone</td><td class="french-col">une pommette</td></tr>
+                        <tr><td class="english-col">a hair</td><td class="french-col">un cheveu</td></tr>
+                        <tr><td class="english-col">a lip</td><td class="french-col">une lèvre</td></tr>
+                        <tr><td class="english-col">a <span class="same-word">moustache</span> </td><td class="french-col">une <span class="same-word">moustache</span></td></tr>
+                        <tr><td class="english-col">a tooth, teeth</td><td class="french-col">une dent, les dents</td></tr>
+                        <tr><td class="english-col">Adam's apple</td><td class="french-col">la pomme d'Adam</td></tr>
+                        <tr><td class="english-col">an ear</td><td class="french-col">une oreille</td></tr>
+                        <tr><td class="english-col">an eye</td><td class="french-col">un œil</td></tr>
+                        <tr><td class="english-col">an eyeball</td><td class="french-col">un globe oculaire</td></tr>
+                        <tr><td class="english-col">an eyebrow</td><td class="french-col">un sourcil</td></tr>
+                        <tr><td class="english-col">an eyelash</td><td class="french-col">un cil</td></tr>
+                        <tr><td class="english-col">an eyelid</td><td class="french-col">une paupière</td></tr>
+                        <tr><td class="english-col">an earlobe</td><td class="french-col">un lobe d'oreille</td></tr>
+                        <tr><td class="english-col">cheek</td><td class="french-col">la joue</td></tr>
+                        <tr><td class="english-col">freckles</td><td class="french-col">les taches de rousseur</td></tr>
+                        <tr><td class="english-col">hair</td><td class="french-col">les cheveux</td></tr>
+                        <tr><td class="english-col">the chin</td><td class="french-col">le menton</td></tr>
+                        <tr><td class="english-col">the complexion</td><td class="french-col">le teint</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">cornea</span></td><td class="french-col">la <span class="same-word">cornée</span> </td></tr>
+                        <tr><td class="english-col">the countenance</td><td class="french-col">l'expression du visage</td></tr>
+                        <tr><td class="english-col">the eardrum</td><td class="french-col">le tympan</td></tr>
+                        <tr><td class="english-col">the eye socket</td><td class="french-col">l'orbite (f.)</td></tr>
+                        <tr><td class="english-col">the eyes</td><td class="french-col">les yeux</td></tr>
+                        <tr><td class="english-col">the face</td><td class="french-col">le visage</td></tr>
+                        <tr><td class="english-col">the features</td><td class="french-col">les traits</td></tr>
+                        <tr><td class="english-col">the forehead</td><td class="french-col">le front</td></tr>
+                        <tr><td class="english-col">the gum</td><td class="french-col">la gencive</td></tr>
+                        <tr><td class="english-col">the head</td><td class="french-col">la tête</td></tr>
+                        <tr><td class="english-col">the iris</td><td class="french-col">l'iris (m.)</td></tr>
+                        <tr><td class="english-col">the jaw</td><td class="french-col">la mâchoire</td></tr>
+                        <tr><td class="english-col">the lower lip</td><td class="french-col">la lèvre inférieure</td></tr>
+                        <tr><td class="english-col">the mouth</td><td class="french-col">la bouche</td></tr>
+                        <tr><td class="english-col">the neck</td><td class="french-col">le cou</td></tr>
+                        <tr><td class="english-col">the nose</td><td class="french-col">le nez</td></tr>
+                        <tr><td class="english-col">the nostril</td><td class="french-col">la narine</td></tr>
+                        <tr><td class="english-col">the palate</td><td class="french-col">le palais</td></tr>
+                        <tr>
+                            <td class="english-col">the <span class="same-word">pupil</span></td>
+                            <td class="french-col">la <span class="same-word">pupille</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-word">retina</span></td>
+                            <td class="french-col">la <span class="same-word">rétine</span></td>
+                          </tr>
+                          <tr>
+                            <td class="english-col">the <span class="same-word">temple</span></td>
+                            <td class="french-col">la <span class="same-word">tempe</span></td>
+                          </tr>
+                        <tr><td class="english-col">the throat</td><td class="french-col">la gorge</td></tr>
+                        <tr><td class="english-col">the tongue</td><td class="french-col">la langue</td></tr>
+                        <tr><td class="english-col">the upper lip</td><td class="french-col">la lèvre supérieure</td></tr>
+                        <tr><td class="english-col">wrinkles</td><td class="french-col">les rides</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- HAIR SECTION -->
+        <div class="section-header">Hair - Cheveux</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a brunette</td><td class="french-col">une brune</td></tr>
+                        <tr><td class="english-col">a bun</td><td class="french-col">un chignon</td></tr>
+                        <tr><td class="english-col">a fringe</td><td class="french-col">une frange</td></tr>
+                        <tr><td class="english-col">a parting</td><td class="french-col">une raie</td></tr>
+                        <tr><td class="english-col">a pigtail</td><td class="french-col">une tresse</td></tr>
+                        <tr><td class="english-col">a ponytail</td><td class="french-col">une queue de cheval</td></tr>
+                        <tr><td class="english-col">a wig</td><td class="french-col">une perruque</td></tr>
+                        <tr><td class="english-col">auburn hair</td><td class="french-col">cheveux châtain roux</td></tr>
+                        <tr><td class="english-col">bald</td><td class="french-col">chauve</td></tr>
+                        <tr><td class="english-col">baldness, a bald patch</td><td class="french-col">la calvitie</td></tr>
+                        <tr><td class="english-col">black hair</td><td class="french-col">les cheveux noirs</td></tr>
+                        <tr><td class="english-col">bleached hair</td><td class="french-col">les cheveux décolorés</td></tr>
+                        <tr><td class="english-col">blond hair</td><td class="french-col">cheveux blonds</td></tr>
+                        <tr><td class="english-col">braided hair</td><td class="french-col">les cheveux tressés</td></tr>
+                        <tr><td class="english-col">brown hair</td><td class="french-col">cheveux bruns</td></tr>
+                        <tr><td class="english-col">bunches</td><td class="french-col">les couettes</td></tr>
+                        <tr><td class="english-col">crew cut, spiky hair</td><td class="french-col">les cheveux en brosse</td></tr>
+                        <tr><td class="english-col">curly hair</td><td class="french-col">les cheveux frisés</td></tr>
+                        <tr><td class="english-col">dandruff</td><td class="french-col">les pellicules</td></tr>
+                        <tr><td class="english-col">dark brown hair</td><td class="french-col">les cheveux châtain foncé</td></tr>
+                        <tr><td class="english-col">dark hair</td><td class="french-col">les cheveux foncés</td></tr>
+                        <tr><td class="english-col">dry hair</td><td class="french-col">les cheveux secs</td></tr>
+                        <tr><td class="english-col">dyed hair</td><td class="french-col">les cheveux teints</td></tr>
+                        <tr><td class="english-col">fair hair</td><td class="french-col">les cheveux clairs</td></tr>
+                        <tr><td class="english-col">frizzy hair</td><td class="french-col">les cheveux crépus</td></tr>
+                        <tr><td class="english-col">ginger-haired, red-headed</td><td class="french-col">roux</td></tr>
+                        <tr><td class="english-col">greasy hair</td><td class="french-col">les cheveux gras</td></tr>
+                        <tr><td class="english-col">highlighted hair</td><td class="french-col">les cheveux avec des mèches</td></tr>
+                        <tr><td class="english-col">light brown hair</td><td class="french-col">cheveux châtain clair</td></tr>
+                        <tr><td class="english-col">long hair</td><td class="french-col">les cheveux longs</td></tr>
+                        <tr><td class="english-col">messy hair</td><td class="french-col">les cheveux ébouriffés</td></tr>
+                        <tr><td class="english-col">permed hair</td><td class="french-col">une permanente</td></tr>
+                        <tr><td class="english-col">red hair</td><td class="french-col">cheveux roux</td></tr>
+                        <tr><td class="english-col">shiny hair</td><td class="french-col">les cheveux brillants</td></tr>
+                        <tr><td class="english-col">short hair</td><td class="french-col">les cheveux courts</td></tr>
+                        <tr><td class="english-col">shoulder-length hair, medium-length hair</td><td class="french-col">les cheveux mi-longs</td></tr>
+                        <tr><td class="english-col">split ends</td><td class="french-col">les pointes fourchues</td></tr>
+                        <tr><td class="english-col">straight hair</td><td class="french-col">les cheveux raides</td></tr>
+                        <tr><td class="english-col">streaks</td><td class="french-col">les mèches</td></tr>
+                        <tr><td class="english-col">tangled hair</td><td class="french-col">les cheveux emmêlés</td></tr>
+                        <tr><td class="english-col">thick hair</td><td class="french-col">les cheveux épais</td></tr>
+                        <tr><td class="english-col">tousled</td><td class="french-col">ébouriffé</td></tr>
+                        <tr><td class="english-col">wavy hair</td><td class="french-col">les cheveux ondulés</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- BODY PARTS SECTION -->
+        <div class="section-header">Body Parts - Parties du Corps</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a <span class="same-word"> biceps</span></td><td class="french-col"> <span class="same-word"> un biceps</span></td></tr>
+                        <tr><td class="english-col">a fist</td><td class="french-col">un poing</td></tr>
+                        <tr><td class="english-col">a foot, feet</td><td class="french-col">un pied, les pieds</td></tr>
+                        <tr><td class="english-col">a hand</td><td class="french-col">une main</td></tr>
+                        <tr><td class="english-col">a knee</td><td class="french-col">un genou</td></tr>
+                        <tr><td class="english-col">a leg</td><td class="french-col">une jambe</td></tr>
+                        <tr><td class="english-col">a nail, a fingernail</td><td class="french-col">un ongle</td></tr>
+                        <tr><td class="english-col">a thumb</td><td class="french-col">un pouce</td></tr>
+                        <tr><td class="english-col">a toe</td><td class="french-col">un orteil</td></tr>
+                        <tr><td class="english-col">a toenail</td><td class="french-col">un ongle d'orteil</td></tr>
+                        <tr><td class="english-col">a <span class="same-word"> triceps</span></td><td class="french-col"> <span class="same-word"> un triceps</span></td></tr>
+                        <tr><td class="english-col">an arm</td><td class="french-col">un bras</td></tr>
+                        <tr><td class="english-col">an armpit</td><td class="french-col">une aisselle</td></tr>
+                        <tr><td class="english-col">behind, butt, buttocks</td><td class="french-col">les fesses</td></tr>
+                        <tr><td class="english-col">breasts</td><td class="french-col">les seins</td></tr>
+                        <tr><td class="english-col">fingers</td><td class="french-col">les doigts</td></tr>
+                        <tr><td class="english-col">knuckles</td><td class="french-col">les articulations</td></tr>
+                        <tr><td class="english-col">nipples</td><td class="french-col">les mamelons</td></tr>
+                        <tr><td class="english-col">ribs</td><td class="french-col">les côtes</td></tr>
+                        <tr><td class="english-col">the abdomen, the belly, the stomach</td><td class="french-col">le ventre</td></tr>
+                        <tr><td class="english-col">the ankle</td><td class="french-col">la cheville</td></tr>
+                        <tr><td class="english-col">the back</td><td class="french-col">le dos</td></tr>
+                        <tr><td class="english-col">the backbone</td><td class="french-col">la colonne vertébrale</td></tr>
+                        <tr><td class="english-col">the big toe</td><td class="french-col">le gros orteil</td></tr>
+                        <tr><td class="english-col">the calf, calves</td><td class="french-col">le mollet</td></tr>
+                        <tr><td class="english-col">the chest</td><td class="french-col">la poitrine</td></tr>
+                        <tr><td class="english-col">the elbow</td><td class="french-col">le coude</td></tr>
+                        <tr><td class="english-col">the forearm</td><td class="french-col">l'avant-bras (m.)</td></tr>
+                        <tr><td class="english-col">the heel</td><td class="french-col">le talon</td></tr>
+                        <tr><td class="english-col">the hip</td><td class="french-col">la hanche</td></tr>
+                        <tr><td class="english-col">the index finger, forefinger</td><td class="french-col">l'index (m.)</td></tr>
+                        <tr><td class="english-col">the little finger, pinkie</td><td class="french-col">l'auriculaire (m.)</td></tr>
+                        <tr><td class="english-col">the middle finger</td><td class="french-col">le majeur</td></tr>
+                        <tr><td class="english-col">the navel, bellybutton</td><td class="french-col">le nombril</td></tr>
+                        <tr><td class="english-col">the palm</td><td class="french-col">la paume</td></tr>
+                        <tr><td class="english-col">the ring finger</td><td class="french-col">l'annulaire (m.)</td></tr>
+                        <tr><td class="english-col">the shoulder</td><td class="french-col">l'épaule (f.)</td></tr>
+                        <tr><td class="english-col">the shoulder blade</td><td class="french-col">l'omoplate (f.)</td></tr>
+                        <tr><td class="english-col">the sole</td><td class="french-col">la plante du pied</td></tr>
+                        <tr><td class="english-col">the thigh</td><td class="french-col">la cuisse</td></tr>
+                        <tr><td class="english-col">the waist</td><td class="french-col">la taille</td></tr>
+                        <tr><td class="english-col">the wrist</td><td class="french-col">le poignet</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- INTERNAL ORGANS SECTION -->
+        <div class="section-header">Internal Organs - Organes Internes</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a blood vessel</td><td class="french-col">un vaisseau sanguin</td></tr>
+                        <tr><td class="english-col">a <span class="same-word"> tendon</span></td><td class="french-col">un <span class="same-word"> tendon</span></td></tr>
+                        <tr><td class="english-col">a vein</td><td class="french-col">une veine</td></tr>
+                        <tr><td class="english-col">Achilles tendon</td><td class="french-col">le tendon d'Achille</td></tr>
+                        <tr><td class="english-col">an <span class="same-word"> artery</span></td><td class="french-col">une <span class="same-word"> artère</span></td></tr>
+                        <tr><td class="english-col">an <span class="same-word"> organ</span></td><td class="french-col">un <span class="same-word"> organe</span></td></tr>
+                        <tr><td class="english-col">bowels, intestines</td><td class="french-col">les intestins</td></tr>
+                        <tr><td class="english-col"> <span class="same-word">cartilage</span></td><td class="french-col">le <span class="same-word"> cartilage</span></td></tr>
+                        <tr><td class="english-col">genitals</td><td class="french-col">les organes génitaux</td></tr>
+                        <tr><td class="english-col">kidneys</td><td class="french-col">les reins</td></tr>
+                        <tr><td class="english-col">large intestine</td><td class="french-col">gros intestin</td></tr>
+                        <tr><td class="english-col"> <span class="same-word">ligament</span></td><td class="french-col">le <span class="same-word">ligament</span></td></tr>
+                        <tr><td class="english-col"> <span class="same-word">rectum</span></td><td class="french-col">le <span class="same-word">rectum</span></td></tr>
+                        <tr><td class="english-col">small intestine</td><td class="french-col">intestin grêle</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">aorta</span></td><td class="french-col"><span class="same-word">l'aorte (f.)</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">appendix</span></td><td class="french-col"><span class="same-word">l'appendice (m.)</span></td></tr>
+                        <tr><td class="english-col">the bladder</td><td class="french-col">la vessie</td></tr>
+                        <tr><td class="english-col">the brain</td><td class="french-col">le cerveau</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">bronchus</span>, bronchial tubes</td><td class="french-col">les <span class="same-word">bronches</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">colon</span></td><td class="french-col">le <span class="same-word">côlon</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">diaphragm</span></td><td class="french-col">le <span class="same-word">diaphragme</span></td></tr>
+                        <tr><td class="english-col">the gall bladder, gallbladder</td><td class="french-col">la vésicule biliaire</td></tr>
+                        <tr><td class="english-col">the heart</td><td class="french-col">le cœur</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">jugular</span> vein</td><td class="french-col">la veine <span class="same-word">jugulaire</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">larynx</span></td><td class="french-col">le <span class="same-word">larynx</span></td></tr>
+                        <tr><td class="english-col">the liver</td><td class="french-col">le foie</td></tr>
+                        <tr><td class="english-col">the lungs</td><td class="french-col">les poumons</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">oesophagus</span></td><td class="french-col"><span class="same-word">l'œsophage</span> (m.)</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">pancreas</span></td><td class="french-col">le <span class="same-word">pancréas</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">penis</span></td><td class="french-col">le <span class="same-word">pénis</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">prostate</span></td><td class="french-col">la <span class="same-word">prostate</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">pulmonary</span> vein</td><td class="french-col">la veine <span class="same-word">pulmonaire</span></td></tr>
+                        <tr><td class="english-col">the spleen</td><td class="french-col">la rate</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">sternum</span>, breast bone</td><td class="french-col">le <span class="same-word">sternum</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">stomach</span></td><td class="french-col">l'<span class="same-word">estomac</span> (m.)</td></tr>
+                        <tr><td class="english-col">the thyroid gland</td><td class="french-col">la glande <span class="same-word">thyroïde</span></td></tr>
+                        <tr><td class="english-col">the tonsils</td><td class="french-col">les amygdales</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">trachea</span>, the windpipe</td><td class="french-col">la <span class="same-word">trachée</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">urethra</span></td><td class="french-col">l'<span class="same-word">urètre</span> (m.)</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">vagina</span></td><td class="french-col">le <span class="same-word">vagin</span></td></tr>
+                        <tr><td class="english-col">the womb, <span class="same-word">uterus</span></td><td class="french-col">l'<span class="same-word">utérus</span> (m.)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- SKELETON SECTION -->
+        <div class="section-header">Skeleton - Squelette</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">a bone</td><td class="french-col">un os</td></tr>
+                        <tr><td class="english-col">a rib</td><td class="french-col">une côte</td></tr>
+                        <tr><td class="english-col">a <span class="same-word">vertebra</span>, <span class="same-word">vertebrae</span></td><td class="french-col">une <span class="same-word">vertèbre</span>, les <span class="same-word">vertèbres</span></td></tr>
+                        <tr><td class="english-col"><span class="same-word">humerus</span></td><td class="french-col">l'<span class="same-word">humérus</span> (m.)</td></tr>
+                        <tr><td class="english-col">the breast bone</td><td class="french-col">le sternum</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">carpus</span></td><td class="french-col">le <span class="same-word">carpe</span></td></tr>
+                        <tr><td class="english-col">the collarbone, <span class="same-word">clavicle</span></td><td class="french-col">la <span class="same-word">clavicule</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">femur</span>, thigh bone</td><td class="french-col">le <span class="same-word">fémur</span></td></tr>
+                        <tr><td class="english-col">the fibula</td><td class="french-col">le péroné</td></tr>
+                        <tr><td class="english-col">the ilium</td><td class="french-col">l'os iliaque</td></tr>
+                        <tr><td class="english-col">the kneecap, the patella</td><td class="french-col">la rotule</td></tr>
+                        <tr><td class="english-col">the marrow</td><td class="french-col">la moelle osseuse</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">metacarpals</span></td><td class="french-col">les <span class="same-word">métacarpiens</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">metatarsals</span></td><td class="french-col">les <span class="same-word">métatarsiens</span></td></tr>
+                        <tr><td class="english-col">the pelvis</td><td class="french-col">le bassin</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">phalanx</span>, <span class="same-word">phalanxes</span></td><td class="french-col">la <span class="same-word">phalange</span>, les <span class="same-word">phalanges</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">radius</span></td><td class="french-col">le <span class="same-word">radius</span></td></tr>
+                        <tr><td class="english-col">the rib cage</td><td class="french-col">la cage thoracique</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">sacrum</span></td><td class="french-col">le <span class="same-word">sacrum</span></td></tr>
+                        <tr><td class="english-col">the skeleton</td><td class="french-col">le squelette</td></tr>
+                        <tr><td class="english-col">the skull</td><td class="french-col">le crâne</td></tr>
+                        <tr><td class="english-col">the spine, backbone</td><td class="french-col">la colonne vertébrale</td></tr>
+                        <tr><td class="english-col">the <span class="same-word">tarsus</span></td><td class="french-col">le <span class="same-word">tarse</span></td></tr>
+                        <tr><td class="english-col">the <span class="same-word">tibia</span></td><td class="french-col">le <span class="same-word">tibia</span></td></tr>
+                        <tr><td class="english-col">the ulnar bone</td><td class="french-col">le cubitus</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- THE FIVE SENSES SECTION -->
+        <div class="section-header">The Five Senses - Les Cinq Sens</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">appetizing</td><td class="french-col">appétissant / appétissante</td></tr>
+                    <tr><td class="english-col"><span class="same-word">astigmatism</span></td><td class="french-col"><span class="same-word">astigmatisme</span></td></tr>
+                    <tr><td class="english-col"><span class="same-word">audible</span></td><td class="french-col"><span class="same-word">audible</span></td></tr>
+                    <tr><td class="english-col">bitter</td><td class="french-col">amer / amère</td></tr>
+                    <tr><td class="english-col">black and white</td><td class="french-col">noir et blanc / noire et blanche</td></tr>
+                    <tr><td class="english-col">bright</td><td class="french-col">brillant / brillante</td></tr>
+                    <tr><td class="english-col">brightness</td><td class="french-col">la luminosité</td></tr>
+                    <tr><td class="english-col">buzzing</td><td class="french-col">bourdonnement</td></tr>
+                    <tr><td class="english-col">CD player</td><td class="french-col">lecteur CD</td></tr>
+                    <tr><td class="english-col">colorblind</td><td class="french-col">daltonien / daltonienne</td></tr>
+                    <tr><td class="english-col">colored contacts</td><td class="french-col">lentilles de contact colorées</td></tr>
+                    <tr><td class="english-col">crackling</td><td class="french-col">crépitement</td></tr>
+                    <tr><td class="english-col">creaking</td><td class="french-col">grincement</td></tr>
+                    <tr><td class="english-col">dazzling</td><td class="french-col">éblouissant / éblouissante</td></tr>
+                    <tr><td class="english-col">deaf</td><td class="french-col">sourd / sourde</td></tr>
+                    <tr><td class="english-col">deafening</td><td class="french-col">assourdissant / assourdissante</td></tr>
+                    <tr><td class="english-col">delicious</td><td class="french-col">délicieux / délicieuse</td></tr>
+                    <tr><td class="english-col">disgusting</td><td class="french-col">dégoûtant / dégoûtante</td></tr>
+                    <tr><td class="english-col">fluffy</td><td class="french-col">moelleux / moelleuse</td></tr>
+                    <tr><td class="english-col">hard</td><td class="french-col">dur / dure</td></tr>
+                    <tr><td class="english-col">hearing</td><td class="french-col">audition</td></tr>
+                    <tr><td class="english-col">hearing-impaired</td><td class="french-col">malentendant / malentendante</td></tr>
+                    <tr><td class="english-col"><span class="same-word">horrible</span></td><td class="french-col"><span class="same-word">horrible</span></td></tr>
+                    <tr><td class="english-col">hot</td><td class="french-col">chaud / chaude</td></tr>
+                    <tr><td class="english-col">loud, noisy</td><td class="french-col">bruyant / bruyante</td></tr>
+                    <tr><td class="english-col">low</td><td class="french-col">bas / basse</td></tr>
+                    <tr><td class="english-col">low-pitched</td><td class="french-col">grave</td></tr>
+                    <tr><td class="english-col">melodious</td><td class="french-col">mélodieux / mélodieuse</td></tr>
+                    <tr><td class="english-col">mouthwatering</td><td class="french-col">qui met l'eau à la bouche</td></tr>
+                    <tr><td class="english-col">nearsighted</td><td class="french-col">myope</td></tr>
+                    <tr><td class="english-col">numb</td><td class="french-col">engourdi / engourdie</td></tr>
+                    <tr><td class="english-col">odorless</td><td class="french-col">inodore</td></tr>
+                    <tr><td class="english-col">pungent</td><td class="french-col">piquant / piquante</td></tr>
+                    <tr><td class="english-col">ringing</td><td class="french-col">sonnerie</td></tr>
+                    <tr><td class="english-col">rough</td><td class="french-col">rugueux / rugueuse</td></tr>
+                    <tr><td class="english-col">salty</td><td class="french-col">salé / salée</td></tr>
+                    <tr><td class="english-col">scented</td><td class="french-col">parfumé / parfumée</td></tr>
+                    <tr><td class="english-col">sharp, high-pitched</td><td class="french-col">aigu / aiguë</td></tr>
+                    <tr><td class="english-col"><span class="same-word">silent</span></td><td class="french-col"><span class="same-word">silencieux / silencieuse</span></td></tr>
+                    <tr><td class="english-col">silky</td><td class="french-col">soyeux / soyeuse</td></tr>
+                    <tr><td class="english-col">smooth</td><td class="french-col">lisse</td></tr>
+                    <tr><td class="english-col">smoky</td><td class="french-col">fumé / fumée</td></tr>
+                    <tr><td class="english-col">soft</td><td class="french-col">doux / douce</td></tr>
+                    <tr><td class="english-col">sour</td><td class="french-col">acide</td></tr>
+                    <tr><td class="english-col">spicy</td><td class="french-col">épicé / épicée</td></tr>
+                    <tr><td class="english-col">stinking</td><td class="french-col">puant / puante</td></tr>
+                    <tr><td class="english-col">strong</td><td class="french-col">fort / forte</td></tr>
+                    <tr><td class="english-col">sweet</td><td class="french-col">sucré / sucrée</td></tr>
+                    <tr><td class="english-col">tasteless</td><td class="french-col">fade / fade</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">appetite</span></td><td class="french-col">l'<span class="same-word">appétit</span> (m.)</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">aroma</span></td><td class="french-col">l'<span class="same-word">arôme</span> (m.)</td></tr>
+                    <tr><td class="english-col">the binoculars</td><td class="french-col">les jumelles</td></tr>
+                    <tr><td class="english-col">the blind person</td><td class="french-col">la personne aveugle</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">braille</span></td><td class="french-col">le <span class="same-word">braille</span></td></tr>
+                    <tr><td class="english-col">the cold</td><td class="french-col">le froid</td></tr>
+                    <tr><td class="english-col">the color</td><td class="french-col">la couleur</td></tr>
+                    <tr><td class="english-col">the contact lenses, the contacts</td><td class="french-col">les lentilles de contact</td></tr>
+                    <tr><td class="english-col">the cornea</td><td class="french-col">la cornée</td></tr>
+                    <tr><td class="english-col">the dark, the darkness</td><td class="french-col">l'obscurité (f.)</td></tr>
+                    <tr><td class="english-col">the earphones, the headphones, the headset</td><td class="french-col">les écouteurs</td></tr>
+                    <tr><td class="english-col">the earplugs</td><td class="french-col">les bouchons d'oreilles</td></tr>
+                    <tr><td class="english-col">the ears</td><td class="french-col">les oreilles</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">echo</span></td><td class="french-col">l'<span class="same-word">écho</span> (m.)</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">explosion</span></td><td class="french-col">l'<span class="same-word">explosion</span> (f.)</td></tr>
+                    <tr><td class="english-col">the eye exam</td><td class="french-col">l'examen des yeux</td></tr>
+                    <tr><td class="english-col">the eye's color</td><td class="french-col">la couleur des yeux</td></tr>
+                    <tr><td class="english-col">the fingertips</td><td class="french-col">le bout des doigts</td></tr>
+                    <tr><td class="english-col">the flavor, the taste</td><td class="french-col">la saveur, le goût</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">fragrance</span></td><td class="french-col">la <span class="same-word">fragrance</span></td></tr>
+                    <tr><td class="english-col">the fragrance, the perfume</td><td class="french-col">le parfum</td></tr>
+                    <tr><td class="english-col">the glasses</td><td class="french-col">les lunettes</td></tr>
+                    <tr><td class="english-col">the guide dog</td><td class="french-col">le chien-guide</td></tr>
+                    <tr><td class="english-col">the handshake</td><td class="french-col">la poignée de main</td></tr>
+                    <tr><td class="english-col">the hearing aid</td><td class="french-col">l'aide auditive (f.)</td></tr>
+                    <tr><td class="english-col">the intercom</td><td class="french-col">l'interphone (m.)</td></tr>
+                    <tr><td class="english-col">the light</td><td class="french-col">la lumière</td></tr>
+                    <tr><td class="english-col">the look</td><td class="french-col">le regard</td></tr>
+                    <tr><td class="english-col">the loudspeaker</td><td class="french-col">le haut-parleur</td></tr>
+                    <tr><td class="english-col">the magnifying glass</td><td class="french-col">la loupe</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">microscope</span></td><td class="french-col">le <span class="same-word">microscope</span></td></tr>
+                    <tr><td class="english-col">the MP3 player</td><td class="french-col">le lecteur MP3</td></tr>
+                    <tr><td class="english-col">the night vision</td><td class="french-col">la vision nocturne</td></tr>
+                    <tr><td class="english-col">the noise</td><td class="french-col">le bruit</td></tr>
+                    <tr><td class="english-col">the nostrils</td><td class="french-col">les narines</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">odour</span></td><td class="french-col">l'<span class="same-word">odeur</span> (f.)</td></tr>
+                    <tr><td class="english-col">the polarized sunglasses</td><td class="french-col">les lunettes de soleil polarisées</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">radio</span></td><td class="french-col">la <span class="same-word">radio</span></td></tr>
+                    <tr><td class="english-col">the saliva</td><td class="french-col">la salive</td></tr>
+                    <tr><td class="english-col">the scent, the smell</td><td class="french-col">le parfum, l'odeur</td></tr>
+                    <tr><td class="english-col">the sight</td><td class="french-col">la vue</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">silence</span></td><td class="french-col">le <span class="same-word">silence</span></td></tr>
+                    <tr><td class="english-col">the skin</td><td class="french-col">la peau</td></tr>
+                    <tr><td class="english-col">the smoke</td><td class="french-col">la fumée</td></tr>
+                    <tr><td class="english-col">the song</td><td class="french-col">la chanson</td></tr>
+                    <tr><td class="english-col">the sound</td><td class="french-col">le son</td></tr>
+                    <tr><td class="english-col">the sound barrier</td><td class="french-col">le mur du son</td></tr>
+                    <tr><td class="english-col">the stench</td><td class="french-col">la puanteur</td></tr>
+                    <tr><td class="english-col">the stroke</td><td class="french-col">la caresse</td></tr>
+                    <tr><td class="english-col">the sunglasses</td><td class="french-col">les lunettes de soleil</td></tr>
+                    <tr><td class="english-col">the taste buds</td><td class="french-col">les papilles gustatives</td></tr>
+                    <tr><td class="english-col">the <span class="same-word">telescope</span></td><td class="french-col">le <span class="same-word">télescope</span></td></tr>
+                    <tr><td class="english-col">the thunder</td><td class="french-col">le tonnerre</td></tr>
+                    <tr><td class="english-col">the view, the <span class="same-word">panorama</span></td><td class="french-col">la vue, le <span class="same-word">panorama</span></td></tr>
+                    <tr><td class="english-col">the <span class="same-word">vision</span></td><td class="french-col">la <span class="same-word">vision</span></td></tr>
+                    <tr><td class="english-col">the voice</td><td class="french-col">la voix</td></tr>
+                    <tr><td class="english-col">the whisper</td><td class="french-col">le chuchotement</td></tr>
+                    <tr><td class="english-col">acute hearing</td><td class="french-col">audition fine</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       
+        <div class="footer">
+            <p><strong>French Human Body & Senses Reference</strong></p>
+            <p>Professional vocabulary compilation from multiple sources presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>
