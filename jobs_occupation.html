@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Jobs & Occupations Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #4169E1 0%, #FFFFFF 50%, #DC143C 100%);
+            color: #2c3e50;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #4169E1 0%, #FFFFFF 50%, #DC143C 100%);
+        }
+        
+        thead th {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .english-col {
+            color: #2c3e50;
+            width: 45%;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        
+        .french-col {
+            color: #495057;
+            font-style: italic;
+            width: 55%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col::before {
+            content: "• ";
+            color: #4169E1;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .same-word {
+            font-weight: bold;
+            color: #ef4135;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- JOBS AND OCCUPATIONS SECTION -->
+        <div class="section-header">Jobs and Occupations - Emplois et Professions</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="english-col">accountant</td><td class="french-col">un(e) comptable</td></tr>
+                        <tr><td class="english-col"><span class="same-word">actor</span></td><td class="french-col"><span class="same-word">un acteur</span></td></tr>
+                        <tr><td class="english-col">actress</td><td class="french-col">une actrice</td></tr>
+                        <tr><td class="english-col">adviser</td><td class="french-col">un(e) conseiller(-ère)</td></tr>
+                        <tr><td class="english-col">air hostess, stewardess</td><td class="french-col">une hôtesse de l'air</td></tr>
+                        <tr><td class="english-col">ambulance driver</td><td class="french-col">un conducteur d'ambulance</td></tr>
+                        <tr><td class="english-col">architect</td><td class="french-col">un(e) architecte</td></tr>
+                        <tr><td class="english-col"><span class="same-word">artist</span></td><td class="french-col"><span class="same-word">un(e) artiste</span></td></tr>
+                        <tr><td class="english-col">baker</td><td class="french-col">un(e) boulanger(-ère)</td></tr>
+                        <tr><td class="english-col">barman, bartender</td><td class="french-col">un barman</td></tr>
+                        <tr><td class="english-col">beekeeper, apiarist</td><td class="french-col">un(e) apiculteur(-trice)</td></tr>
+                        <tr><td class="english-col">bookseller</td><td class="french-col">un(e) libraire</td></tr>
+                        <tr><td class="english-col">builder, bricklayer</td><td class="french-col">un maçon</td></tr>
+                        <tr><td class="english-col">bus driver</td><td class="french-col">un conducteur d'autobus</td></tr>
+                        <tr><td class="english-col">butcher</td><td class="french-col">un(e) boucher(-ère)</td></tr>
+                        <tr><td class="english-col">buyer</td><td class="french-col">un(e) acheteur(-euse)</td></tr>
+                        <tr><td class="english-col">cabinet maker</td><td class="french-col">un(e) ébéniste</td></tr>
+                        <tr><td class="english-col">cameraman</td><td class="french-col">un cadreur</td></tr>
+                        <tr><td class="english-col">caretaker</td><td class="french-col">un(e) gardien(ne)</td></tr>
+                        <tr><td class="english-col">carpenter, joiner</td><td class="french-col">un(e) charpentier(-ière)</td></tr>
+                        <tr><td class="english-col">cashier</td><td class="french-col">un(e) caissier(-ière)</td></tr>
+                        <tr><td class="english-col">caterer</td><td class="french-col">un(e) traiteur(-euse)</td></tr>
+                        <tr><td class="english-col">CEO</td><td class="french-col">un(e) directeur(-trice) général(e)</td></tr>
+                        <tr><td class="english-col">chairperson</td><td class="french-col">un(e) président(e)</td></tr>
+                        <tr><td class="english-col">chef</td><td class="french-col">un(e) chef cuisinier(-ière)</td></tr>
+                        <tr><td class="english-col">civil servant</td><td class="french-col">un(e) fonctionnaire</td></tr>
+                        <tr><td class="english-col">cleaner</td><td class="french-col">un(e) agent(e) d'entretien</td></tr>
+                        <tr><td class="english-col">cleaning lady</td><td class="french-col">une femme de ménage</td></tr>
+                        <tr><td class="english-col">company manager</td><td class="french-col">un(e) directeur(-trice) d'entreprise</td></tr>
+                        <tr><td class="english-col">concierge</td><td class="french-col">un(e) concierge</td></tr>
+                        <tr><td class="english-col">contractor</td><td class="french-col">un(e) entrepreneur(-euse)</td></tr>
+                        <tr><td class="english-col">cook</td><td class="french-col">un(e) cuisinier(-ière)</td></tr>
+                        <tr><td class="english-col">customs officer</td><td class="french-col">un(e) agent(e) des douanes</td></tr>
+                        <tr><td class="english-col">dancer</td><td class="french-col">un(e) danseur(-euse)</td></tr>
+                        <tr><td class="english-col">delivery driver, delivery man</td><td class="french-col">un(e) livreur(-euse)</td></tr>
+                        <tr><td class="english-col"><span class="same-word">dentist</span></td><td class="french-col"><span class="same-word">un(e) dentiste</span></td></tr>
+                        <tr><td class="english-col">developer</td><td class="french-col">un(e) développeur(-euse)</td></tr>
+                        <tr><td class="english-col"><span class="same-word">doctor</span></td><td class="french-col"><span class="same-word">un(e) docteur/médecin</span></td></tr>
+                        <tr><td class="english-col">door-keeper</td><td class="french-col">un(e) portier(-ière)</td></tr>
+                        <tr><td class="english-col">driver</td><td class="french-col">un(e) conducteur(-trice)</td></tr>
+                        <tr><td class="english-col">dry-cleaner</td><td class="french-col">un(e) teinturier(-ière)</td></tr>
+                        <tr><td class="english-col">dustman, garbageman</td><td class="french-col">un(e) éboueur(-euse)</td></tr>
+                        <tr><td class="english-col">electrician</td><td class="french-col">un(e) électricien(ne)</td></tr>
+                        <tr><td class="english-col">engineer</td><td class="french-col">un(e) ingénieur(e)</td></tr>
+                        <tr><td class="english-col">estate agent</td><td class="french-col">un(e) agent immobilier</td></tr>
+                        <tr><td class="english-col">farmer</td><td class="french-col">un(e) agriculteur(-trice)</td></tr>
+                        <tr><td class="english-col">film editor</td><td class="french-col">un(e) monteur(-euse) de films</td></tr>
+                        <tr><td class="english-col">fireman</td><td class="french-col">un(e) pompier(-ière)</td></tr>
+                        <tr><td class="english-col">fisherman</td><td class="french-col">un(e) pêcheur(-euse)</td></tr>
+                        <tr><td class="english-col">fishmonger</td><td class="french-col">un(e) poissonnier(-ière)</td></tr>
+                        <tr><td class="english-col">flight attendant</td><td class="french-col">un(e) steward/hôtesse de l'air</td></tr>
+                        <tr><td class="english-col">florist</td><td class="french-col">un(e) fleuriste</td></tr>
+                        <tr><td class="english-col">furniture mover</td><td class="french-col">un(e) déménageur(-euse)</td></tr>
+                        <tr><td class="english-col">gardener</td><td class="french-col">un(e) jardinier(-ière)</td></tr>
+                        <tr><td class="english-col">greengrocer</td><td class="french-col">un(e) marchand(e) de légumes</td></tr>
+                        <tr><td class="english-col">hairdresser</td><td class="french-col">un(e) coiffeur(-euse)</td></tr>
+                        <tr><td class="english-col">industrial designer</td><td class="french-col">un(e) designer industriel(le)</td></tr>
+                        <tr><td class="english-col">jeweller</td><td class="french-col">un(e) bijoutier(-ière)</td></tr>
+                        <tr><td class="english-col">job</td><td class="french-col">un travail, un emploi</td></tr>
+                        <tr><td class="english-col"><span class="same-word">journalist</span></td><td class="french-col"><span class="same-word">un(e) journaliste</span></td></tr>
+                        <tr><td class="english-col">judge</td><td class="french-col">un(e) juge</td></tr>
+                        <tr><td class="english-col">kitchenhand</td><td class="french-col">un(e) aide-cuisinier(-ière)</td></tr>
+                        <tr><td class="english-col">lawyer</td><td class="french-col">un(e) avocat(e)</td></tr>
+                        <tr><td class="english-col">librarian</td><td class="french-col">un(e) bibliothécaire</td></tr>
+                        <tr><td class="english-col">lifeguard</td><td class="french-col">un(e) maître-nageur(-euse)</td></tr>
+                        <tr><td class="english-col">locksmith</td><td class="french-col">un(e) serrurier(-ière)</td></tr>
+                        <tr><td class="english-col">lorry driver, truck driver</td><td class="french-col">un(e) routier(-ière)</td></tr>
+                        <tr><td class="english-col">lumberjack</td><td class="french-col">un(e) bûcheron(ne)</td></tr>
+                        <tr><td class="english-col">manager</td><td class="french-col">un(e) manager/directeur(-trice)</td></tr>
+                        <tr><td class="english-col">mayor</td><td class="french-col">un(e) maire</td></tr>
+                        <tr><td class="english-col">mechanic</td><td class="french-col">un(e) mécanicien(ne)</td></tr>
+                        <tr><td class="english-col">midwife</td><td class="french-col">une sage-femme</td></tr>
+                        <tr><td class="english-col">miner</td><td class="french-col">un(e) mineur(-euse)</td></tr>
+                        <tr><td class="english-col">movie director</td><td class="french-col">un(e) réalisateur(-trice)</td></tr>
+                        <tr><td class="english-col">musician</td><td class="french-col">un(e) musicien(ne)</td></tr>
+                        <tr><td class="english-col">notary</td><td class="french-col">un(e) notaire</td></tr>
+                        <tr><td class="english-col">nurse</td><td class="french-col">un(e) infirmier(-ière)</td></tr>
+                        <tr><td class="english-col">ophthalmologist</td><td class="french-col">un(e) ophtalmologue</td></tr>
+                        <tr><td class="english-col">optician</td><td class="french-col">un(e) opticien(ne)</td></tr>
+                        <tr><td class="english-col">pediatrician</td><td class="french-col">un(e) pédiatre</td></tr>
+                        <tr><td class="english-col">painter</td><td class="french-col">un(e) peintre</td></tr>
+                        <tr><td class="english-col">pastry cook</td><td class="french-col">un(e) pâtissier(-ière)</td></tr>
+                        <tr><td class="english-col">pharmacist</td><td class="french-col">un(e) pharmacien(ne)</td></tr>
+                        <tr><td class="english-col">photographer</td><td class="french-col">un(e) photographe</td></tr>
+                        <tr><td class="english-col">physiotherapist</td><td class="french-col">un(e) kinésithérapeute</td></tr>
+                        <tr><td class="english-col"><span class="same-word">pilot</span></td><td class="french-col"><span class="same-word">un(e) pilote</span></td></tr>
+                        <tr><td class="english-col">plumber</td><td class="french-col">un(e) plombier(-ière)</td></tr>
+                        <tr><td class="english-col">policeman</td><td class="french-col">un(e) policier(-ière)</td></tr>
+                        <tr><td class="english-col">politician</td><td class="french-col">un(e) politicien(ne)</td></tr>
+                        <tr><td class="english-col">postman</td><td class="french-col">un(e) facteur(-trice)</td></tr>
+                        <tr><td class="english-col">producer</td><td class="french-col">un(e) producteur(-trice)</td></tr>
+                        <tr><td class="english-col">psychiatrist</td><td class="french-col">un(e) psychiatre</td></tr>
+                        <tr><td class="english-col">publisher</td><td class="french-col">un(e) éditeur(-trice)</td></tr>
+                        <tr><td class="english-col">railway man, railroad man</td><td class="french-col">un(e) cheminot(e)</td></tr>
+                        <tr><td class="english-col">receptionist</td><td class="french-col">un(e) réceptionniste</td></tr>
+                        <tr><td class="english-col">repairman</td><td class="french-col">un(e) réparateur(-trice)</td></tr>
+                        <tr><td class="english-col">researcher</td><td class="french-col">un(e) chercheur(-euse)</td></tr>
+                        <tr><td class="english-col">retailer</td><td class="french-col">un(e) détaillant(e)</td></tr>
+                        <tr><td class="english-col">sailor</td><td class="french-col">un(e) marin/matelot</td></tr>
+                        <tr><td class="english-col">sales and marketing person</td><td class="french-col">un(e) commercial(e)</td></tr>
+                        <tr><td class="english-col">scientist</td><td class="french-col">un(e) scientifique</td></tr>
+                        <tr><td class="english-col">scriptwriter</td><td class="french-col">un(e) scénariste</td></tr>
+                        <tr><td class="english-col">sculptor</td><td class="french-col">un(e) sculpteur(-trice)</td></tr>
+                        <tr><td class="english-col">seamstress</td><td class="french-col">une couturière</td></tr>
+                        <tr><td class="english-col">secretary</td><td class="french-col">un(e) secrétaire</td></tr>
+                        <tr><td class="english-col">security guard</td><td class="french-col">un(e) garde de sécurité</td></tr>
+                        <tr><td class="english-col">service-station attendant</td><td class="french-col">un(e) pompiste</td></tr>
+                        <tr><td class="english-col">shop assistant</td><td class="french-col">un(e) vendeur(-euse)</td></tr>
+                        <tr><td class="english-col">shop keeper</td><td class="french-col">un(e) commerçant(e)</td></tr>
+                        <tr><td class="english-col">singer</td><td class="french-col">un(e) chanteur(-euse)</td></tr>
+                        <tr><td class="english-col">soldier</td><td class="french-col">un(e) soldat(e)</td></tr>
+                        <tr><td class="english-col">sportsman</td><td class="french-col">un(e) sportif(-ive)</td></tr>
+                        <tr><td class="english-col">strike</td><td class="french-col">une grève</td></tr>
+                        <tr><td class="english-col">surgeon</td><td class="french-col">un(e) chirurgien(ne)</td></tr>
+                        <tr><td class="english-col">tailor</td><td class="french-col">un(e) tailleur(-euse)</td></tr>
+                        <tr><td class="english-col">tax-collector</td><td class="french-col">un(e) percepteur(-trice)</td></tr>
+                        <tr><td class="english-col">taxi driver</td><td class="french-col">un(e) chauffeur de taxi</td></tr>
+                        <tr><td class="english-col">teacher</td><td class="french-col">un(e) enseignant(e)</td></tr>
+                        <tr><td class="english-col">telephone operator, switchboard operator</td><td class="french-col">un(e) standardiste</td></tr>
+                        <tr><td class="english-col">tiler</td><td class="french-col">un(e) carreleur(-euse)</td></tr>
+                        <tr><td class="english-col">translator</td><td class="french-col">un(e) traducteur(-trice)</td></tr>
+                        <tr><td class="english-col">travel agent</td><td class="french-col">un(e) agent de voyages</td></tr>
+                        <tr><td class="english-col">typist</td><td class="french-col">un(e) dactylographe</td></tr>
+                        <tr><td class="english-col">veterinary surgeon, vet</td><td class="french-col">un(e) vétérinaire</td></tr>
+                        <tr><td class="english-col">waiter</td><td class="french-col">un serveur</td></tr>
+                        <tr><td class="english-col">waitress</td><td class="french-col">une serveuse</td></tr>
+                        <tr><td class="english-col">weatherman</td><td class="french-col">un(e) présentateur(-trice) météo</td></tr>
+                        <tr><td class="english-col">wholesaler</td><td class="french-col">un(e) grossiste</td></tr>
+                        <tr><td class="english-col">woodworker</td><td class="french-col">un(e) menuisier(-ière)</td></tr>
+                        <tr><td class="english-col">writer</td><td class="french-col">un(e) écrivain(e)</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>French Jobs & Occupations Reference</strong></p>
+            <p>Professional vocabulary compilation with comprehensive data cleaning presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>
