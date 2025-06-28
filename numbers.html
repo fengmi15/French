@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>French Numbers Vocabulary Reference</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+        }
+        
+        .section-header {
+            background: linear-gradient(135deg, #0055a4 0%, #ffffff 50%, #ef4135 100%);
+            color: #2c3e50;
+            padding: 20px 40px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            text-align: center;
+            margin-top: 2rem;
+        }
+        
+        .section-header:first-child {
+            margin-top: 0;
+        }
+        
+        .table-container {
+            padding: 40px;
+        }
+        
+        .table-wrapper {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 1.1rem;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #0055a4 0%, #ffffff 50%, #ef4135 100%);
+        }
+        
+        thead th {
+            color: #2c3e50;
+            font-weight: 600;
+            font-size: 1.4rem;
+            padding: 20px;
+            text-align: left;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #e9ecef;
+            transition: all 0.2s ease;
+        }
+        
+        tbody tr:hover {
+            background-color: #f8f9fa;
+            transform: translateY(-1px);
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #fdfdfe;
+        }
+        
+        td {
+            padding: 18px 20px;
+            vertical-align: top;
+        }
+        
+        .number-col {
+            font-weight: 600;
+            color: #2c3e50;
+            width: 20%;
+            font-size: 1.2rem;
+            text-align: right;
+        }
+        
+        .english-col {
+            font-weight: 500;
+            color: #2c3e50;
+            width: 35%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col {
+            color: #495057;
+            font-style: italic;
+            width: 45%;
+            font-size: 1.1rem;
+        }
+        
+        .french-col::before {
+            content: "• ";
+            color: #0055a4;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        .pattern-note {
+            background: #e3f2fd;
+            border-left: 4px solid #0055a4;
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .pattern-note h4 {
+            color: #0055a4;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+        
+        .pattern-note p {
+            color: #37474f;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        .footer p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                border-radius: 0;
+            }
+            
+            tbody tr:hover {
+                background-color: transparent;
+                transform: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .table-container {
+                padding: 20px;
+            }
+            
+            table {
+                font-size: 0.9rem;
+            }
+            
+            td {
+                padding: 12px 15px;
+            }
+            
+            .section-header {
+                font-size: 1.2rem;
+                padding: 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- BASIC NUMBERS SECTION -->
+        <div class="section-header">Basic Numbers - Les Nombres de Base</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="number-col">Number</th>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="number-col">0</td><td class="english-col">zero</td><td class="french-col">zéro</td></tr>
+                        <tr><td class="number-col">1</td><td class="english-col">one</td><td class="french-col">un</td></tr>
+                        <tr><td class="number-col">2</td><td class="english-col">two</td><td class="french-col">deux</td></tr>
+                        <tr><td class="number-col">3</td><td class="english-col">three</td><td class="french-col">trois</td></tr>
+                        <tr><td class="number-col">4</td><td class="english-col">four</td><td class="french-col">quatre</td></tr>
+                        <tr><td class="number-col">5</td><td class="english-col">five</td><td class="french-col">cinq</td></tr>
+                        <tr><td class="number-col">6</td><td class="english-col">six</td><td class="french-col">six</td></tr>
+                        <tr><td class="number-col">7</td><td class="english-col">seven</td><td class="french-col">sept</td></tr>
+                        <tr><td class="number-col">8</td><td class="english-col">eight</td><td class="french-col">huit</td></tr>
+                        <tr><td class="number-col">9</td><td class="english-col">nine</td><td class="french-col">neuf</td></tr>
+                        <tr><td class="number-col">10</td><td class="english-col">ten</td><td class="french-col">dix</td></tr>
+                        <tr><td class="number-col">11</td><td class="english-col">eleven</td><td class="french-col">onze</td></tr>
+                        <tr><td class="number-col">12</td><td class="english-col">twelve</td><td class="french-col">douze</td></tr>
+                        <tr><td class="number-col">13</td><td class="english-col">thirteen</td><td class="french-col">treize</td></tr>
+                        <tr><td class="number-col">14</td><td class="english-col">fourteen</td><td class="french-col">quatorze</td></tr>
+                        <tr><td class="number-col">15</td><td class="english-col">fifteen</td><td class="french-col">quinze</td></tr>
+                        <tr><td class="number-col">16</td><td class="english-col">sixteen</td><td class="french-col">seize</td></tr>
+                        <tr><td class="number-col">17</td><td class="english-col">seventeen</td><td class="french-col">dix-sept</td></tr>
+                        <tr><td class="number-col">18</td><td class="english-col">eighteen</td><td class="french-col">dix-huit</td></tr>
+                        <tr><td class="number-col">19</td><td class="english-col">nineteen</td><td class="french-col">dix-neuf</td></tr>
+                        <tr><td class="number-col">20</td><td class="english-col">twenty</td><td class="french-col">vingt</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- COMPOUND NUMBERS AND TENS SECTION -->
+        <div class="section-header">Compound Numbers and Tens - Les Nombres Composés et les Dizaines</div>
+        <div class="table-container">
+            <div class="pattern-note">
+                <h4>Pattern for 21-29:</h4>
+                <p>For 21-29, use "vingt" + hyphen + basic number (21 = vingt-et-un, 22 = vingt-deux, 23 = vingt-trois, etc.)</p>
+            </div>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="number-col">Number</th>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="number-col">21</td><td class="english-col">twenty-one</td><td class="french-col">vingt-et-un</td></tr>
+                        <tr><td class="number-col">22</td><td class="english-col">twenty-two</td><td class="french-col">vingt-deux</td></tr>
+                        <tr><td class="number-col">23</td><td class="english-col">twenty-three</td><td class="french-col">vingt-trois</td></tr>
+                        <tr><td class="number-col">30</td><td class="english-col">thirty</td><td class="french-col">trente</td></tr>
+                        <tr><td class="number-col">31</td><td class="english-col">thirty-one</td><td class="french-col">trente-et-un</td></tr>
+                        <tr><td class="number-col">40</td><td class="english-col">forty</td><td class="french-col">quarante</td></tr>
+                        <tr><td class="number-col">50</td><td class="english-col">fifty</td><td class="french-col">cinquante</td></tr>
+                        <tr><td class="number-col">60</td><td class="english-col">sixty</td><td class="french-col">soixante</td></tr>
+                        <tr><td class="number-col">70</td><td class="english-col">seventy</td><td class="french-col">soixante-dix</td></tr>
+                        <tr><td class="number-col">71</td><td class="english-col">seventy-one</td><td class="french-col">soixante-et-onze</td></tr>
+                        <tr><td class="number-col">72</td><td class="english-col">seventy-two</td><td class="french-col">soixante-douze</td></tr>
+                        <tr><td class="number-col">80</td><td class="english-col">eighty</td><td class="french-col">quatre-vingts</td></tr>
+                        <tr><td class="number-col">81</td><td class="english-col">eighty-one</td><td class="french-col">quatre-vingt-un</td></tr>
+                        <tr><td class="number-col">90</td><td class="english-col">ninety</td><td class="french-col">quatre-vingt-dix</td></tr>
+                        <tr><td class="number-col">91</td><td class="english-col">ninety-one</td><td class="french-col">quatre-vingt-onze</td></tr>
+                        <tr><td class="number-col">99</td><td class="english-col">ninety-nine</td><td class="french-col">quatre-vingt-dix-neuf</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pattern-note">
+                <h4>Special French Number Rules:</h4>
+                <p><strong>70s:</strong> Use "soixante" (60) + number (70 = soixante-dix, 75 = soixante-quinze)<br>
+                <strong>80s:</strong> Use "quatre-vingts" (four twenties) but drop 's' when followed by a number<br>
+                <strong>90s:</strong> Use "quatre-vingt-dix" + number (92 = quatre-vingt-douze)</p>
+            </div>
+        </div>
+
+        <!-- HUNDREDS SECTION -->
+        <div class="section-header">Hundreds - Les Centaines</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="number-col">Number</th>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="number-col">100</td><td class="english-col">one hundred</td><td class="french-col">cent</td></tr>
+                        <tr><td class="number-col">101</td><td class="english-col">one hundred one</td><td class="french-col">cent un</td></tr>
+                        <tr><td class="number-col">102</td><td class="english-col">one hundred two</td><td class="french-col">cent deux</td></tr>
+                        <tr><td class="number-col">103</td><td class="english-col">one hundred three</td><td class="french-col">cent trois</td></tr>
+                        <tr><td class="number-col">110</td><td class="english-col">one hundred ten</td><td class="french-col">cent dix</td></tr>
+                        <tr><td class="number-col">120</td><td class="english-col">one hundred twenty</td><td class="french-col">cent vingt</td></tr>
+                        <tr><td class="number-col">125</td><td class="english-col">one hundred twenty-five</td><td class="french-col">cent vingt-cinq</td></tr>
+                        <tr><td class="number-col">180</td><td class="english-col">one hundred eighty</td><td class="french-col">cent quatre-vingts</td></tr>
+                        <tr><td class="number-col">199</td><td class="english-col">one hundred ninety-nine</td><td class="french-col">cent quatre-vingt-dix-neuf</td></tr>
+                        <tr><td class="number-col">200</td><td class="english-col">two hundred</td><td class="french-col">deux cents</td></tr>
+                        <tr><td class="number-col">201</td><td class="english-col">two hundred one</td><td class="french-col">deux cent un</td></tr>
+                        <tr><td class="number-col">300</td><td class="english-col">three hundred</td><td class="french-col">trois cents</td></tr>
+                        <tr><td class="number-col">400</td><td class="english-col">four hundred</td><td class="french-col">quatre cents</td></tr>
+                        <tr><td class="number-col">500</td><td class="english-col">five hundred</td><td class="french-col">cinq cents</td></tr>
+                        <tr><td class="number-col">600</td><td class="english-col">six hundred</td><td class="french-col">six cents</td></tr>
+                        <tr><td class="number-col">700</td><td class="english-col">seven hundred</td><td class="french-col">sept cents</td></tr>
+                        <tr><td class="number-col">800</td><td class="english-col">eight hundred</td><td class="french-col">huit cents</td></tr>
+                        <tr><td class="number-col">900</td><td class="english-col">nine hundred</td><td class="french-col">neuf cents</td></tr>
+                        <tr><td class="number-col">999</td><td class="english-col">nine hundred ninety-nine</td><td class="french-col">neuf cent quatre-vingt-dix-neuf</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pattern-note">
+                <h4>Hundreds Pattern:</h4>
+                <p><strong>100:</strong> "cent" (no 's')<br>
+                <strong>200-900:</strong> number + "cents" (with 's')<br>
+                <strong>But:</strong> Drop the 's' when followed by another number (201 = deux cent un)</p>
+            </div>
+        </div>
+
+        <!-- THOUSANDS SECTION -->
+        <div class="section-header">Thousands - Les Milliers</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="number-col">Number</th>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="number-col">1,000</td><td class="english-col">one thousand</td><td class="french-col">mille</td></tr>
+                        <tr><td class="number-col">1,001</td><td class="english-col">one thousand one</td><td class="french-col">mille un</td></tr>
+                        <tr><td class="number-col">1,100</td><td class="english-col">one thousand one hundred</td><td class="french-col">mille cent</td></tr>
+                        <tr><td class="number-col">1,500</td><td class="english-col">one thousand five hundred</td><td class="french-col">mille cinq cents</td></tr>
+                        <tr><td class="number-col">2,000</td><td class="english-col">two thousand</td><td class="french-col">deux mille</td></tr>
+                        <tr><td class="number-col">3,000</td><td class="english-col">three thousand</td><td class="french-col">trois mille</td></tr>
+                        <tr><td class="number-col">5,000</td><td class="english-col">five thousand</td><td class="french-col">cinq mille</td></tr>
+                        <tr><td class="number-col">10,000</td><td class="english-col">ten thousand</td><td class="french-col">dix mille</td></tr>
+                        <tr><td class="number-col">15,000</td><td class="english-col">fifteen thousand</td><td class="french-col">quinze mille</td></tr>
+                        <tr><td class="number-col">20,000</td><td class="english-col">twenty thousand</td><td class="french-col">vingt mille</td></tr>
+                        <tr><td class="number-col">50,000</td><td class="english-col">fifty thousand</td><td class="french-col">cinquante mille</td></tr>
+                        <tr><td class="number-col">100,000</td><td class="english-col">one hundred thousand</td><td class="french-col">cent mille</td></tr>
+                        <tr><td class="number-col">500,000</td><td class="english-col">five hundred thousand</td><td class="french-col">cinq cent mille</td></tr>
+                        <tr><td class="number-col">999,999</td><td class="english-col">nine hundred ninety-nine thousand nine hundred ninety-nine</td><td class="french-col">neuf cent quatre-vingt-dix-neuf mille neuf cent quatre-vingt-dix-neuf</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pattern-note">
+                <h4>Thousands Pattern:</h4>
+                <p><strong>1,000:</strong> "mille" (never "un mille")<br>
+                <strong>2,000+:</strong> number + "mille" (no 's' on mille)<br>
+                <strong>Note:</strong> "mille" is invariable - it never takes 's'</p>
+            </div>
+        </div>
+
+        <!-- LARGE NUMBERS SECTION -->
+        <div class="section-header">Large Numbers - Les Grands Nombres</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="number-col">Number</th>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="number-col">1,000,000</td><td class="english-col">one million</td><td class="french-col">un million</td></tr>
+                        <tr><td class="number-col">2,000,000</td><td class="english-col">two million</td><td class="french-col">deux millions</td></tr>
+                        <tr><td class="number-col">5,000,000</td><td class="english-col">five million</td><td class="french-col">cinq millions</td></tr>
+                        <tr><td class="number-col">10,000,000</td><td class="english-col">ten million</td><td class="french-col">dix millions</td></tr>
+                        <tr><td class="number-col">100,000,000</td><td class="english-col">one hundred million</td><td class="french-col">cent millions</td></tr>
+                        <tr><td class="number-col">1,000,000,000</td><td class="english-col">one billion</td><td class="french-col">un milliard</td></tr>
+                        <tr><td class="number-col">2,000,000,000</td><td class="english-col">two billion</td><td class="french-col">deux milliards</td></tr>
+                        <tr><td class="number-col">1,000,000,000,000</td><td class="english-col">one trillion</td><td class="french-col">un billion</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pattern-note">
+                <h4>Large Numbers Pattern:</h4>
+                <p><strong>Million:</strong> Takes 's' in plural (deux millions)<br>
+                <strong>Milliard:</strong> French billion = English billion (10⁹)<br>
+                <strong>Billion:</strong> French billion = English trillion (10¹²)<br>
+                <strong>Important:</strong> French and English billion systems differ!</p>
+            </div>
+        </div>
+
+        <!-- COMPLEX EXAMPLES SECTION -->
+        <div class="section-header">Complex Examples - Exemples Complexes</div>
+        <div class="table-container">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="number-col">Number</th>
+                            <th class="english-col">English</th>
+                            <th class="french-col">French</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="number-col">1,234</td><td class="english-col">one thousand two hundred thirty-four</td><td class="french-col">mille deux cent trente-quatre</td></tr>
+                        <tr><td class="number-col">5,678</td><td class="english-col">five thousand six hundred seventy-eight</td><td class="french-col">cinq mille six cent soixante-dix-huit</td></tr>
+                        <tr><td class="number-col">12,345</td><td class="english-col">twelve thousand three hundred forty-five</td><td class="french-col">douze mille trois cent quarante-cinq</td></tr>
+                        <tr><td class="number-col">98,765</td><td class="english-col">ninety-eight thousand seven hundred sixty-five</td><td class="french-col">quatre-vingt-dix-huit mille sept cent soixante-cinq</td></tr>
+                        <tr><td class="number-col">123,456</td><td class="english-col">one hundred twenty-three thousand four hundred fifty-six</td><td class="french-col">cent vingt-trois mille quatre cent cinquante-six</td></tr>
+                        <tr><td class="number-col">1,234,567</td><td class="english-col">one million two hundred thirty-four thousand five hundred sixty-seven</td><td class="french-col">un million deux cent trente-quatre mille cinq cent soixante-sept</td></tr>
+                        <tr><td class="number-col">987,654,321</td><td class="english-col">nine hundred eighty-seven million six hundred fifty-four thousand three hundred twenty-one</td><td class="french-col">neuf cent quatre-vingt-sept millions six cent cinquante-quatre mille trois cent vingt-et-un</td></tr>
+                        <tr><td class="number-col">1,000,000,000,000</td><td class="english-col">one trillion</td><td class="french-col">un billion</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="pattern-note">
+                <h4>Key Rules Summary:</h4>
+                <p>1. Use hyphens for compound numbers under 100<br>
+                2. "Et" only appears in: 21, 31, 41, 51, 61, 71<br>
+                3. No "et" in: 81, 91, 101, etc.<br>
+                4. "Cent" and "vingt" take 's' only when they end the number<br>
+                5. "Mille" never takes 's'</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p><strong>French Numbers Vocabulary Reference</strong></p>
+            <p>Professional vocabulary compilation for counting from 0 to 1 trillion presented by meliglossa</p>
+        </div>
+    </div>
+</body>
+</html>
